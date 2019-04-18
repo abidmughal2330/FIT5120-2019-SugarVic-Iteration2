@@ -1,0 +1,13 @@
+@import './variables';
+
+.wprmprc-icon {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    svg {
+        width: 16px;
+        height: auto;
+    }
+}

@@ -1,0 +1,838 @@
+0000.000 (0) Opened log file at time: Tue, 16 Apr 2019 01:32:54 +0000 on https://sugarvic.tk
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.1.1 PHP: 7.2.16 (fpm-fcgi, Linux wordpresspro-1-vm 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64) MySQL: 8.0.15 WPLANG: en_US Server: nginx/1.14.2 safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 17.3M | 4M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 5095.5 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: every8hours) Backup DB: 1 (schedule: daily)
+0000.022 (0) Semaphore (fd, wp_options) being initialised
+0000.035 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.068 (0) Set semaphore last lock (fd) time to 2019-04-16 01:32:54
+0000.076 (0) Semaphore lock (fd) complete
+0000.093 (0) Backup run: resumption=0, nonce=337c17afc8cc, file_nonce=337c17afc8cc begun at=1555378374 (0s ago), job type=backup
+0000.103 (0) Scheduling a resumption (1) after 300 seconds (1555378674) in case this run gets aborted
+0000.135 (0) Checking if we have a zip executable available
+0000.140 (0) Testing: /usr/bin/zip
+0000.149 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.154 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.159 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.164 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.169 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.179 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.184 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.189 (0) Working binary zip found: /usr/bin/zip
+0000.199 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.204 (0) Creation of backups of directories: beginning
+0000.224 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.401 (0) Total entities for the zip file: 2066 directories, 9753 files (0 skipped as non-modified), 131.3 MB
+0002.410 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.416 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.422 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.428 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.435 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 9753 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.416 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: size is now: 2.10 MB
+0003.432 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 600 files added (on-disk size: 2135 KB)
+0003.438 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 700 files added (on-disk size: 2135 KB)
+0003.444 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 800 files added (on-disk size: 2135 KB)
+0003.450 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 900 files added (on-disk size: 2135 KB)
+0003.456 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1000 files added (on-disk size: 2135 KB)
+0003.461 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 9753 files batched, 501 (1002) added so far); re-opening (prior size: 2135 KB)
+0004.391 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: size is now: 4.00 MB
+0004.404 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1100 files added (on-disk size: 4146.8 KB)
+0004.410 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1200 files added (on-disk size: 4146.8 KB)
+0004.417 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1300 files added (on-disk size: 4146.8 KB)
+0004.423 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1400 files added (on-disk size: 4146.8 KB)
+0004.429 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1500 files added (on-disk size: 4146.8 KB)
+0004.434 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.7 MB, 9753 files batched, 501 (1503) added so far); re-opening (prior size: 4146.8 KB)
+0005.322 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: size is now: 8.80 MB
+0005.337 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1600 files added (on-disk size: 8962.7 KB)
+0005.343 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1700 files added (on-disk size: 8962.7 KB)
+0005.349 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1800 files added (on-disk size: 8962.7 KB)
+0005.355 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 1900 files added (on-disk size: 8962.7 KB)
+0005.361 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2000 files added (on-disk size: 8962.7 KB)
+0005.366 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 9753 files batched, 501 (2004) added so far); re-opening (prior size: 8962.7 KB)
+0005.565 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2100 files added (on-disk size: 9780.3 KB)
+0005.572 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2200 files added (on-disk size: 9780.3 KB)
+0005.579 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2300 files added (on-disk size: 9780.3 KB)
+0005.586 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2400 files added (on-disk size: 9780.3 KB)
+0005.592 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2500 files added (on-disk size: 9780.3 KB)
+0005.597 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.5 MB, 9753 files batched, 501 (2505) added so far); re-opening (prior size: 9780.3 KB)
+0006.727 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: size is now: 12.80 MB
+0006.741 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2600 files added (on-disk size: 13108.9 KB)
+0006.747 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2700 files added (on-disk size: 13108.9 KB)
+0006.753 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2800 files added (on-disk size: 13108.9 KB)
+0006.759 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 2900 files added (on-disk size: 13108.9 KB)
+0006.765 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3000 files added (on-disk size: 13108.9 KB)
+0006.770 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 9753 files batched, 501 (3006) added so far); re-opening (prior size: 13108.9 KB)
+0007.596 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3100 files added (on-disk size: 15482.9 KB)
+0007.604 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3200 files added (on-disk size: 15482.9 KB)
+0007.611 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3300 files added (on-disk size: 15482.9 KB)
+0007.618 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3400 files added (on-disk size: 15482.9 KB)
+0007.624 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3500 files added (on-disk size: 15482.9 KB)
+0007.630 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 9753 files batched, 501 (3507) added so far); re-opening (prior size: 15482.9 KB)
+0008.348 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3600 files added (on-disk size: 17583.2 KB)
+0008.356 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3700 files added (on-disk size: 17583.2 KB)
+0008.362 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3800 files added (on-disk size: 17583.2 KB)
+0008.368 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 3900 files added (on-disk size: 17583.2 KB)
+0008.374 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4000 files added (on-disk size: 17583.2 KB)
+0008.379 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.4 MB, 9753 files batched, 501 (4008) added so far); re-opening (prior size: 17583.2 KB)
+0009.696 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: size is now: 21.10 MB
+0009.708 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4100 files added (on-disk size: 21650.5 KB)
+0009.716 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4200 files added (on-disk size: 21650.5 KB)
+0009.723 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4300 files added (on-disk size: 21650.5 KB)
+0009.729 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4400 files added (on-disk size: 21650.5 KB)
+0009.736 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4500 files added (on-disk size: 21650.5 KB)
+0009.741 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 9753 files batched, 501 (4509) added so far); re-opening (prior size: 21650.5 KB)
+0010.932 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4600 files added (on-disk size: 25202.9 KB)
+0010.943 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4700 files added (on-disk size: 25202.9 KB)
+0010.949 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4800 files added (on-disk size: 25202.9 KB)
+0010.955 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 4900 files added (on-disk size: 25202.9 KB)
+0010.961 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5000 files added (on-disk size: 25202.9 KB)
+0010.965 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 9753 files batched, 501 (5010) added so far); re-opening (prior size: 25202.9 KB)
+0011.957 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5100 files added (on-disk size: 27267.2 KB)
+0011.963 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5200 files added (on-disk size: 27267.2 KB)
+0011.970 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5300 files added (on-disk size: 27267.2 KB)
+0011.975 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5400 files added (on-disk size: 27267.2 KB)
+0011.981 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5500 files added (on-disk size: 27267.2 KB)
+0011.986 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 9753 files batched, 501 (5511) added so far); re-opening (prior size: 27267.2 KB)
+0012.700 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5600 files added (on-disk size: 31453 KB)
+0012.708 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5700 files added (on-disk size: 31453 KB)
+0012.714 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5800 files added (on-disk size: 31453 KB)
+0012.720 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 5900 files added (on-disk size: 31453 KB)
+0012.726 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6000 files added (on-disk size: 31453 KB)
+0012.731 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 9753 files batched, 501 (6012) added so far); re-opening (prior size: 31453 KB)
+0013.723 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6100 files added (on-disk size: 33487.9 KB)
+0013.729 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6200 files added (on-disk size: 33487.9 KB)
+0013.733 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6300 files added (on-disk size: 33487.9 KB)
+0013.742 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6400 files added (on-disk size: 33487.9 KB)
+0013.748 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6500 files added (on-disk size: 33487.9 KB)
+0013.753 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.3 MB, 9753 files batched, 501 (6513) added so far); re-opening (prior size: 33487.9 KB)
+0015.680 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6600 files added (on-disk size: 38344.1 KB)
+0015.686 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6700 files added (on-disk size: 38344.1 KB)
+0015.693 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6800 files added (on-disk size: 38344.1 KB)
+0015.699 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 6900 files added (on-disk size: 38344.1 KB)
+0015.705 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7000 files added (on-disk size: 38344.1 KB)
+0015.710 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 9753 files batched, 501 (7014) added so far); re-opening (prior size: 38344.1 KB)
+0016.597 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7100 files added (on-disk size: 40137.8 KB)
+0016.603 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7200 files added (on-disk size: 40137.8 KB)
+0016.610 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7300 files added (on-disk size: 40137.8 KB)
+0016.616 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7400 files added (on-disk size: 40137.8 KB)
+0016.624 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7500 files added (on-disk size: 40137.8 KB)
+0016.630 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 9753 files batched, 501 (7515) added so far); re-opening (prior size: 40137.8 KB)
+0017.274 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7600 files added (on-disk size: 41067.5 KB)
+0017.281 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7700 files added (on-disk size: 41067.5 KB)
+0017.287 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7800 files added (on-disk size: 41067.5 KB)
+0017.293 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 7900 files added (on-disk size: 41067.5 KB)
+0017.299 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8000 files added (on-disk size: 41067.5 KB)
+0017.303 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 9753 files batched, 501 (8016) added so far); re-opening (prior size: 41067.5 KB)
+0017.826 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8100 files added (on-disk size: 41634.5 KB)
+0017.833 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8200 files added (on-disk size: 41634.5 KB)
+0017.839 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8300 files added (on-disk size: 41634.5 KB)
+0017.845 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8400 files added (on-disk size: 41634.5 KB)
+0017.851 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8500 files added (on-disk size: 41634.5 KB)
+0017.857 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 MB, 9753 files batched, 501 (8517) added so far); re-opening (prior size: 41634.5 KB)
+0018.497 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8600 files added (on-disk size: 42728.9 KB)
+0018.504 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8700 files added (on-disk size: 42728.9 KB)
+0018.510 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8800 files added (on-disk size: 42728.9 KB)
+0018.516 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 8900 files added (on-disk size: 42728.9 KB)
+0018.527 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9000 files added (on-disk size: 42728.9 KB)
+0018.532 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 9753 files batched, 501 (9018) added so far); re-opening (prior size: 42728.9 KB)
+0021.716 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9100 files added (on-disk size: 43422.1 KB)
+0021.751 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9200 files added (on-disk size: 43422.1 KB)
+0021.756 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9300 files added (on-disk size: 43422.1 KB)
+0021.763 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9400 files added (on-disk size: 43422.1 KB)
+0021.768 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9500 files added (on-disk size: 43422.1 KB)
+0021.775 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 9753 files batched, 501 (9519) added so far); re-opening (prior size: 43422.1 KB)
+0022.890 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9600 files added (on-disk size: 46037.1 KB)
+0022.896 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip.tmp: 9700 files added (on-disk size: 46037.1 KB)
+0026.487 (0) Created plugins zip (0) - 47148.7 KB in 26.3 s (1795.7 KB/s) (sha1: 90f4df406b2c1972c825ba4f577f995362d02ae8, sha256: 29b1fa499408e25a776eca34f7e59604ffcf9f777b4282af8d0bcba5cf40d08f)
+0026.499 (0) Beginning creation of dump of themes (split every: 400 MB)
+0026.980 (0) Total entities for the zip file: 688 directories, 3652 files (0 skipped as non-modified), 74.4 MB
+0026.987 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.995 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0027.001 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0027.006 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0027.013 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0027.017 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 3652 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0028.603 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: size is now: 6.40 MB
+0028.614 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 600 files added (on-disk size: 6547 KB)
+0028.620 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 700 files added (on-disk size: 6547 KB)
+0028.626 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 800 files added (on-disk size: 6547 KB)
+0028.631 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 900 files added (on-disk size: 6547 KB)
+0028.636 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1000 files added (on-disk size: 6547 KB)
+0028.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.9 MB, 3652 files batched, 501 (1002) added so far); re-opening (prior size: 6547 KB)
+0029.701 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: size is now: 13.60 MB
+0029.716 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1100 files added (on-disk size: 13878.1 KB)
+0029.723 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1200 files added (on-disk size: 13878.1 KB)
+0029.729 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1300 files added (on-disk size: 13878.1 KB)
+0029.735 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1400 files added (on-disk size: 13878.1 KB)
+0029.742 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1500 files added (on-disk size: 13878.1 KB)
+0029.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.1 MB, 3652 files batched, 501 (1503) added so far); re-opening (prior size: 13878.1 KB)
+0031.776 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: size is now: 24.40 MB
+0031.790 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1600 files added (on-disk size: 24962.2 KB)
+0031.797 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1700 files added (on-disk size: 24962.2 KB)
+0031.803 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1800 files added (on-disk size: 24962.2 KB)
+0031.811 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 1900 files added (on-disk size: 24962.2 KB)
+0031.817 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2000 files added (on-disk size: 24962.2 KB)
+0031.822 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 3652 files batched, 501 (2004) added so far); re-opening (prior size: 24962.2 KB)
+0032.748 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: size is now: 29.40 MB
+0032.761 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2100 files added (on-disk size: 30074.9 KB)
+0032.768 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2200 files added (on-disk size: 30074.9 KB)
+0032.774 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2300 files added (on-disk size: 30074.9 KB)
+0032.780 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2400 files added (on-disk size: 30074.9 KB)
+0032.786 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2500 files added (on-disk size: 30074.9 KB)
+0032.791 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 3652 files batched, 501 (2505) added so far); re-opening (prior size: 30074.9 KB)
+0033.629 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2600 files added (on-disk size: 32130.1 KB)
+0033.635 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2700 files added (on-disk size: 32130.1 KB)
+0033.641 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2800 files added (on-disk size: 32130.1 KB)
+0033.646 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 2900 files added (on-disk size: 32130.1 KB)
+0033.651 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 3000 files added (on-disk size: 32130.1 KB)
+0033.655 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 3652 files batched, 501 (3006) added so far); re-opening (prior size: 32130.1 KB)
+0034.465 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 3100 files added (on-disk size: 33407.3 KB)
+0034.473 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 3200 files added (on-disk size: 33407.3 KB)
+0034.479 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 3300 files added (on-disk size: 33407.3 KB)
+0034.485 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 3400 files added (on-disk size: 33407.3 KB)
+0034.491 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 3500 files added (on-disk size: 33407.3 KB)
+0034.496 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 3652 files batched, 501 (3507) added so far); re-opening (prior size: 33407.3 KB)
+0035.498 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip.tmp: 3600 files added (on-disk size: 39518.5 KB)
+0038.850 (0) Created themes zip (0) - 42405.3 KB in 12.3 s (3434.9 KB/s) (sha1: c82d8038d59823e83ba7ed821dd4d471d310c228, sha256: 94686913dec5fff63fa49e8afe745f21c767bab71159a221225cdd071642f5c3)
+0038.861 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0038.867 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0038.871 (0) finding files: zip-recipes: adding to list (1)
+0038.876 (0) finding files: ithemes-security: adding to list (2)
+0038.881 (0) finding files: 2018: adding to list (3)
+0038.886 (0) finding files: elements: adding to list (4)
+0038.891 (0) finding files: elementor: adding to list (5)
+0038.897 (0) finding files: 2019: adding to list (6)
+0038.902 (0) finding files: 2016: adding to list (7)
+0038.906 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0039.182 (0) Total entities for the zip file: 29 directories, 1195 files (0 skipped as non-modified), 154.5 MB
+0039.189 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0039.194 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0039.200 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 1195 files batched, 288 (288) added so far); re-opening (prior size: 0 KB)
+0040.484 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: size is now: 25.30 MB
+0040.495 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 15272.4 KB/s)
+0040.508 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6944580078125, normalised_time=1.676229055203, max_time=40.500062227249, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0040.521 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 300 files added (on-disk size: 25931.5 KB)
+0040.527 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 400 files added (on-disk size: 25931.5 KB)
+0040.535 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 500 files added (on-disk size: 25931.5 KB)
+0040.540 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 600 files added (on-disk size: 25931.5 KB)
+0040.548 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 700 files added (on-disk size: 25931.5 KB)
+0040.554 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (91.1 MB, 1195 files batched, 501 (789) added so far); re-opening (prior size: 25931.5 KB)
+0046.620 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: size is now: 116.50 MB
+0046.632 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 800 files added (on-disk size: 119330.1 KB)
+0046.641 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 900 files added (on-disk size: 119330.1 KB)
+0046.648 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 1000 files added (on-disk size: 119330.1 KB)
+0046.654 (0) Zip: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: 1100 files added (on-disk size: 119330.1 KB)
+0051.955 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip.tmp: size is now: 154.70 MB
+0053.895 (0) Created uploads zip (0) - 158452.6 KB in 15 s (10575 KB/s) (sha1: d777c0f4bcb537c374092cbfca0e5b48c1386eb7, sha256: 8e117ca9bd61bdd8fc917a8ce500d2605477fc050eaacbfeaa8079c62c8e0cee)
+0053.905 (0) Beginning backup of other directories found in the content directory (index: 0)
+0053.910 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0053.914 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0053.919 (0) finding files: index.php: adding to list (1)
+0053.923 (0) finding files: languages: adding to list (2)
+0053.928 (0) finding files: plugins: skipping: this is the plugins directory
+0053.932 (0) finding files: updraft: skipping: this is the updraft directory
+0053.937 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0053.941 (0) finding files: upgrade: skipping: excluded by options
+0053.946 (0) finding files: uploads: skipping: this is the uploads directory
+0053.950 (0) finding files: wflogs: adding to list (3)
+0053.955 (0) finding files: themes: skipping: this is the themes directory
+0053.959 (0) finding files: lock.txt: adding to list (4)
+0053.970 (0) Total entities for the zip file: 4 directories, 57 files (0 skipped as non-modified), 8.2 MB
+0055.138 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-others.zip.tmp: size is now: 3.20 MB
+0055.202 (0) Created others zip (0) - 3299.1 KB in 1.2 s (2667.2 KB/s) (sha1: 9b642ad6075d1423088a851460fa0e3bd84979c3, sha256: 2c2d7c3f6f2c91e373b43fe8538374346f58a0974580ffb9a37b20b837a2c4b6)
+0055.223 (0) Saving backup status to database (elements: 8)
+0055.233 (0) Beginning creation of database dump (WordPress DB)
+0055.260 (0) Table wp_options: Total expected rows (approximate): 493
+0055.520 (0) Table wp_options: Total rows added: 622 in 0.26 seconds
+0055.527 (0) Table wp_options: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_options.table.gz - 450.1 KB)
+0055.543 (0) Table wp_users: Total expected rows (approximate): 0
+0055.550 (0) Table wp_users: Total rows added: 5 in 0.00 seconds
+0055.555 (0) Table wp_users: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_users.table.gz - 1 KB)
+0055.573 (0) Table wp_usermeta: Total expected rows (approximate): 42
+0055.581 (0) Table wp_usermeta: Total rows added: 127 in 0.00 seconds
+0055.587 (0) Table wp_usermeta: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_usermeta.table.gz - 4 KB)
+0055.606 (0) Table wp_commentmeta: Total expected rows (approximate): 22
+0055.613 (0) Table wp_commentmeta: Total rows added: 24 in 0.00 seconds
+0055.617 (0) Table wp_commentmeta: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_commentmeta.table.gz - 0.6 KB)
+0055.637 (0) Table wp_comments: Total expected rows (approximate): 10
+0055.645 (0) Table wp_comments: Total rows added: 10 in 0.00 seconds
+0055.650 (0) Table wp_comments: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_comments.table.gz - 1.2 KB)
+0055.669 (0) Table wp_links: Total expected rows (approximate): 0
+0055.679 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0055.685 (0) Table wp_links: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_links.table.gz - 0.5 KB)
+0055.703 (0) Table wp_postmeta: Total expected rows (approximate): 6957
+0056.521 (0) Table wp_postmeta: Total rows added: 10589 in 0.81 seconds
+0058.434 (0) Table wp_postmeta: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_postmeta.table.gz - 780.4 KB)
+0058.567 (0) Table wp_posts: Total expected rows (approximate): 1017
+0058.812 (0) Table wp_posts: Total rows added: 1083 in 0.24 seconds
+0058.819 (0) Table wp_posts: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_posts.table.gz - 137.6 KB)
+0058.837 (0) Table wp_term_relationships: Total expected rows (approximate): 547
+0058.846 (0) Table wp_term_relationships: Total rows added: 608 in 0.00 seconds
+0058.851 (0) Table wp_term_relationships: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_term_relationships.table.gz - 1.9 KB)
+0058.869 (0) Table wp_term_taxonomy: Total expected rows (approximate): 272
+0058.878 (0) Table wp_term_taxonomy: Total rows added: 285 in 0.00 seconds
+0058.883 (0) Table wp_term_taxonomy: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_term_taxonomy.table.gz - 2.2 KB)
+0058.901 (0) Table wp_termmeta: Total expected rows (approximate): 666
+0058.913 (0) Table wp_termmeta: Total rows added: 731 in 0.01 seconds
+0058.919 (0) Table wp_termmeta: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_termmeta.table.gz - 8 KB)
+0058.936 (0) Table wp_terms: Total expected rows (approximate): 272
+0058.945 (0) Table wp_terms: Total rows added: 285 in 0.00 seconds
+0058.951 (0) Table wp_terms: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_terms.table.gz - 4.4 KB)
+0058.961 (0) Skipping table (lacks our prefix (wp_)): dance
+0058.965 (0) Skipping table (lacks our prefix (wp_)): final
+0058.970 (0) Skipping table (lacks our prefix (wp_)): geo
+0058.975 (0) Skipping table (lacks our prefix (wp_)): ingredient
+0058.979 (0) Skipping table (lacks our prefix (wp_)): recipe
+0058.984 (0) Skipping table (lacks our prefix (wp_)): sport
+0058.996 (0) Table wp_frm_fields: Total expected rows (approximate): 6
+0059.005 (0) Table wp_frm_fields: Total rows added: 6 in 0.00 seconds
+0059.010 (0) Table wp_frm_fields: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_fields.table.gz - 1.1 KB)
+0059.033 (0) Table wp_frm_forms: Total expected rows (approximate): 3
+0059.040 (0) Table wp_frm_forms: Total rows added: 3 in 0.00 seconds
+0059.046 (0) Table wp_frm_forms: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_forms.table.gz - 1.1 KB)
+0059.065 (0) Table wp_frm_item_metas: Total expected rows (approximate): 0
+0059.071 (0) Table wp_frm_item_metas: Total rows added: 0 in 0.00 seconds
+0059.077 (0) Table wp_frm_item_metas: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_item_metas.table.gz - 0.3 KB)
+0059.095 (0) Table wp_frm_items: Total expected rows (approximate): 0
+0059.101 (0) Table wp_frm_items: Total rows added: 0 in 0.00 seconds
+0059.107 (0) Table wp_frm_items: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_items.table.gz - 0.5 KB)
+0059.126 (0) Table wp_itsec_distributed_storage: Total expected rows (approximate): 0
+0059.132 (0) Table wp_itsec_distributed_storage: Total rows added: 0 in 0.00 seconds
+0059.137 (0) Table wp_itsec_distributed_storage: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_distributed_storage.table.gz - 0.4 KB)
+0059.156 (0) Table wp_itsec_fingerprints: Total expected rows (approximate): 0
+0059.164 (0) Table wp_itsec_fingerprints: Total rows added: 0 in 0.00 seconds
+0059.168 (0) Table wp_itsec_fingerprints: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_fingerprints.table.gz - 0.4 KB)
+0059.185 (0) Table wp_itsec_geolocation_cache: Total expected rows (approximate): 0
+0059.192 (0) Table wp_itsec_geolocation_cache: Total rows added: 0 in 0.00 seconds
+0059.197 (0) Table wp_itsec_geolocation_cache: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_geolocation_cache.table.gz - 0.4 KB)
+0059.213 (0) Table wp_itsec_lockouts: Total expected rows (approximate): 2
+0059.221 (0) Table wp_itsec_lockouts: Total rows added: 4 in 0.00 seconds
+0059.226 (0) Table wp_itsec_lockouts: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_lockouts.table.gz - 0.6 KB)
+0059.244 (0) Table wp_itsec_logs: Total expected rows (approximate): 585
+0059.388 (0) Table wp_itsec_logs: Total rows added: 804 in 0.14 seconds
+0059.395 (0) Table wp_itsec_logs: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_logs.table.gz - 179.1 KB)
+0059.412 (0) Table wp_itsec_temp: Total expected rows (approximate): 66
+0059.421 (0) Table wp_itsec_temp: Total rows added: 134 in 0.00 seconds
+0059.426 (0) Table wp_itsec_temp: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_temp.table.gz - 1.9 KB)
+0059.445 (0) Table wp_simmer_recipe_itemmeta: Total expected rows (approximate): 0
+0059.452 (0) Table wp_simmer_recipe_itemmeta: Total rows added: 0 in 0.00 seconds
+0059.457 (0) Table wp_simmer_recipe_itemmeta: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_simmer_recipe_itemmeta.table.gz - 0.4 KB)
+0059.476 (0) Table wp_simmer_recipe_items: Total expected rows (approximate): 0
+0059.483 (0) Table wp_simmer_recipe_items: Total rows added: 0 in 0.00 seconds
+0059.487 (0) Table wp_simmer_recipe_items: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_simmer_recipe_items.table.gz - 0.3 KB)
+0059.505 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0059.511 (0) Table wp_wfblockediplog: Total rows added: 0 in 0.00 seconds
+0059.515 (0) Table wp_wfblockediplog: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfblockediplog.table.gz - 0.3 KB)
+0059.534 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0059.540 (0) Table wp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0059.545 (0) Table wp_wfblocks7: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0059.562 (0) Table wp_wfconfig: Total expected rows (approximate): 233
+0059.572 (0) Table wp_wfconfig: Total rows added: 233 in 0.01 seconds
+0059.578 (0) Table wp_wfconfig: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfconfig.table.gz - 10.4 KB)
+0059.596 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0059.603 (0) Table wp_wfcrawlers: Total rows added: 0 in 0.00 seconds
+0059.608 (0) Table wp_wfcrawlers: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfcrawlers.table.gz - 0.3 KB)
+0059.625 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0059.632 (0) Table wp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0059.637 (0) Table wp_wffilechanges: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0059.654 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0059.661 (0) Table wp_wffilemods: Total rows added: 0 in 0.00 seconds
+0059.666 (0) Table wp_wffilemods: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wffilemods.table.gz - 0.4 KB)
+0059.688 (0) Table wp_wfhits: Total expected rows (approximate): 0
+0059.697 (0) Table wp_wfhits: Total rows added: 0 in 0.00 seconds
+0059.702 (0) Table wp_wfhits: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfhits.table.gz - 0.4 KB)
+0059.721 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0059.728 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0059.733 (0) Table wp_wfhoover: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0059.751 (0) Table wp_wfissues: Total expected rows (approximate): 24
+0059.758 (0) Table wp_wfissues: Total rows added: 24 in 0.00 seconds
+0059.764 (0) Table wp_wfissues: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfissues.table.gz - 4.6 KB)
+0059.784 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 0
+0059.790 (0) Table wp_wfknownfilelist: Total rows added: 0 in 0.00 seconds
+0059.795 (0) Table wp_wfknownfilelist: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfknownfilelist.table.gz - 0.3 KB)
+0059.813 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0059.820 (0) Table wp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0059.826 (0) Table wp_wflivetraffichuman: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0059.845 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0059.852 (0) Table wp_wflocs: Total rows added: 1 in 0.00 seconds
+0059.857 (0) Table wp_wflocs: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wflocs.table.gz - 0.5 KB)
+0059.874 (0) Table wp_wflogins: Total expected rows (approximate): 0
+0059.881 (0) Table wp_wflogins: Total rows added: 0 in 0.00 seconds
+0059.886 (0) Table wp_wflogins: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wflogins.table.gz - 0.4 KB)
+0059.904 (0) Table wp_wfnotifications: Total expected rows (approximate): 2
+0059.912 (0) Table wp_wfnotifications: Total rows added: 2 in 0.00 seconds
+0059.918 (0) Table wp_wfnotifications: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfnotifications.table.gz - 0.5 KB)
+0059.937 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0059.946 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0059.951 (0) Table wp_wfpendingissues: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0059.971 (0) Table wp_wfreversecache: Total expected rows (approximate): 1
+0059.977 (0) Table wp_wfreversecache: Total rows added: 1 in 0.00 seconds
+0059.982 (0) Table wp_wfreversecache: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfreversecache.table.gz - 0.4 KB)
+0060.001 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0060.008 (0) Table wp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0060.014 (0) Table wp_wfsnipcache: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0060.036 (0) Table wp_wfstatus: Total expected rows (approximate): 10
+0060.044 (0) Table wp_wfstatus: Total rows added: 10 in 0.00 seconds
+0060.049 (0) Table wp_wfstatus: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfstatus.table.gz - 0.7 KB)
+0060.067 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0060.073 (0) Table wp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0060.078 (0) Table wp_wftrafficrates: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0060.096 (0) Table wp_wprm_ratings: Total expected rows (approximate): 9
+0060.104 (0) Table wp_wprm_ratings: Total rows added: 9 in 0.00 seconds
+0060.109 (0) Table wp_wprm_ratings: finishing file (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wprm_ratings.table.gz - 0.6 KB)
+0060.120 (0) Skipping table (lacks our prefix (wp_)): yoga
+0060.132 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_options.table.gz (1/51): adding to final database dump
+0060.384 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_users.table.gz (2/51): adding to final database dump
+0060.390 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_usermeta.table.gz (3/51): adding to final database dump
+0060.397 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_commentmeta.table.gz (4/51): adding to final database dump
+0060.402 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_comments.table.gz (5/51): adding to final database dump
+0060.407 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_links.table.gz (6/51): adding to final database dump
+0060.411 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_postmeta.table.gz (7/51): adding to final database dump
+0061.100 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_posts.table.gz (8/51): adding to final database dump
+0061.294 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_term_relationships.table.gz (9/51): adding to final database dump
+0061.300 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_term_taxonomy.table.gz (10/51): adding to final database dump
+0061.307 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_termmeta.table.gz (11/51): adding to final database dump
+0061.316 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_terms.table.gz (12/51): adding to final database dump
+0061.325 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_fields.table.gz (13/51): adding to final database dump
+0061.330 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_forms.table.gz (14/51): adding to final database dump
+0061.335 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_item_metas.table.gz (15/51): adding to final database dump
+0061.340 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_frm_items.table.gz (16/51): adding to final database dump
+0061.344 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_distributed_storage.table.gz (17/51): adding to final database dump
+0061.349 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_fingerprints.table.gz (18/51): adding to final database dump
+0061.354 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_geolocation_cache.table.gz (19/51): adding to final database dump
+0061.360 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_lockouts.table.gz (20/51): adding to final database dump
+0061.365 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_logs.table.gz (21/51): adding to final database dump
+0061.495 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_itsec_temp.table.gz (22/51): adding to final database dump
+0061.502 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_simmer_recipe_itemmeta.table.gz (23/51): adding to final database dump
+0061.506 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_simmer_recipe_items.table.gz (24/51): adding to final database dump
+0061.511 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfblockediplog.table.gz (25/51): adding to final database dump
+0061.515 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfblocks7.table.gz (26/51): adding to final database dump
+0061.520 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfconfig.table.gz (27/51): adding to final database dump
+0061.529 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfcrawlers.table.gz (28/51): adding to final database dump
+0061.534 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wffilechanges.table.gz (29/51): adding to final database dump
+0061.539 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wffilemods.table.gz (30/51): adding to final database dump
+0061.544 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfhits.table.gz (31/51): adding to final database dump
+0061.549 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfhoover.table.gz (32/51): adding to final database dump
+0061.553 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfissues.table.gz (33/51): adding to final database dump
+0061.561 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfknownfilelist.table.gz (34/51): adding to final database dump
+0061.565 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wflivetraffichuman.table.gz (35/51): adding to final database dump
+0061.570 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wflocs.table.gz (36/51): adding to final database dump
+0061.575 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wflogins.table.gz (37/51): adding to final database dump
+0061.580 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfnotifications.table.gz (38/51): adding to final database dump
+0061.585 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfpendingissues.table.gz (39/51): adding to final database dump
+0061.589 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfreversecache.table.gz (40/51): adding to final database dump
+0061.594 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfsnipcache.table.gz (41/51): adding to final database dump
+0061.599 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wfstatus.table.gz (42/51): adding to final database dump
+0061.604 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wftrafficrates.table.gz (43/51): adding to final database dump
+0061.608 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db-table-wp_wprm_ratings.table.gz (44/51): adding to final database dump
+0061.706 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db.gz: finished writing out complete database file (1568 KB)
+0061.755 (0) Total database tables backed up: 44 (backup_2019-04-16-0132_SugarVic_337c17afc8cc-db.gz, size: 1628035, sha256)
+0061.778 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0061.783 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0061.788 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0061.793 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-others.zip: others: This file has not yet been successfully uploaded: will queue
+0061.798 (0) backup_2019-04-16-0132_SugarVic_337c17afc8cc-db.gz: db: This file has not yet been successfully uploaded: will queue
+0061.804 (0) Saving backup history. Total backup size: 247 MB
+0061.815 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0061.831 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0061.842 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1c8ef0c13217c73f935f025be3ba7c42)
+0063.423 (0) Google Drive: creating path: /UpdraftPlus
+0065.027 (0) Google Drive: quota usage: used=4557 MB, total=15360 MB, available=10803 MB
+0065.033 (0) Google Drive: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Nq8ieL8yK51uoTUFKYfS4FMtQmF64NRy)
+0067.847 (0) Googledrive chunked upload: 2.2 % uploaded (1048576)
+0069.386 (0) Googledrive chunked upload: 4.3 % uploaded (2097152)
+0070.912 (0) Googledrive chunked upload: 6.5 % uploaded (3145728)
+0072.436 (0) Googledrive chunked upload: 8.7 % uploaded (4194304)
+0073.426 (0) Googledrive chunked upload: 10.9 % uploaded (5242880)
+0074.938 (0) Googledrive chunked upload: 13 % uploaded (6291456)
+0076.472 (0) Googledrive chunked upload: 15.2 % uploaded (7340032)
+0078.015 (0) Googledrive chunked upload: 17.4 % uploaded (8388608)
+0079.538 (0) Googledrive chunked upload: 19.5 % uploaded (9437184)
+0081.067 (0) Googledrive chunked upload: 21.7 % uploaded (10485760)
+0083.255 (0) Googledrive chunked upload: 23.9 % uploaded (11534336)
+0084.791 (0) Googledrive chunked upload: 26.1 % uploaded (12582912)
+0086.306 (0) Googledrive chunked upload: 28.2 % uploaded (13631488)
+0087.844 (0) Googledrive chunked upload: 30.4 % uploaded (14680064)
+0089.405 (0) Googledrive chunked upload: 32.6 % uploaded (15728640)
+0090.947 (0) Googledrive chunked upload: 34.7 % uploaded (16777216)
+0092.472 (0) Googledrive chunked upload: 36.9 % uploaded (17825792)
+0094.002 (0) Googledrive chunked upload: 39.1 % uploaded (18874368)
+0095.542 (0) Googledrive chunked upload: 41.3 % uploaded (19922944)
+0097.067 (0) Googledrive chunked upload: 43.4 % uploaded (20971520)
+0098.582 (0) Googledrive chunked upload: 45.6 % uploaded (22020096)
+0100.129 (0) Googledrive chunked upload: 47.8 % uploaded (23068672)
+0101.661 (0) Googledrive chunked upload: 50 % uploaded (24117248)
+0103.212 (0) Googledrive chunked upload: 52.1 % uploaded (25165824)
+0104.752 (0) Googledrive chunked upload: 54.3 % uploaded (26214400)
+0106.269 (0) Googledrive chunked upload: 56.5 % uploaded (27262976)
+0107.790 (0) Googledrive chunked upload: 58.6 % uploaded (28311552)
+0109.330 (0) Googledrive chunked upload: 60.8 % uploaded (29360128)
+0110.957 (0) Googledrive chunked upload: 63 % uploaded (30408704)
+0112.490 (0) Googledrive chunked upload: 65.2 % uploaded (31457280)
+0114.013 (0) Googledrive chunked upload: 67.3 % uploaded (32505856)
+0115.546 (0) Googledrive chunked upload: 69.5 % uploaded (33554432)
+0117.071 (0) Googledrive chunked upload: 71.7 % uploaded (34603008)
+0118.615 (0) Googledrive chunked upload: 73.8 % uploaded (35651584)
+0120.145 (0) Googledrive chunked upload: 76 % uploaded (36700160)
+0121.660 (0) Googledrive chunked upload: 78.2 % uploaded (37748736)
+0123.210 (0) Googledrive chunked upload: 80.4 % uploaded (38797312)
+0124.724 (0) Googledrive chunked upload: 82.5 % uploaded (39845888)
+0126.271 (0) Googledrive chunked upload: 84.7 % uploaded (40894464)
+0127.858 (0) Googledrive chunked upload: 86.9 % uploaded (41943040)
+0129.395 (0) Googledrive chunked upload: 89 % uploaded (42991616)
+0130.942 (0) Googledrive chunked upload: 91.2 % uploaded (44040192)
+0132.477 (0) Googledrive chunked upload: 93.4 % uploaded (45088768)
+0134.002 (0) Googledrive chunked upload: 95.6 % uploaded (46137344)
+0135.539 (0) Googledrive chunked upload: 97.7 % uploaded (47185920)
+0137.062 (0) Googledrive chunked upload: 99.9 % uploaded (48234496)
+0139.451 (0) Googledrive chunked upload: 100 % uploaded (48234496)
+0139.466 (0) Google Drive: OK: Archive backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip uploaded in 74.43 seconds
+0139.471 (0) Recording as successfully uploaded: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip
+0139.489 (0) Deleting local file: backup_2019-04-16-0132_SugarVic_337c17afc8cc-plugins.zip: OK
+0140.476 (0) Google Drive: quota usage: used=4603.1 MB, total=15360 MB, available=10756.9 MB
+0140.482 (0) Google Drive: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip: Attempting to upload to Google Drive (into folder id: 1Nq8ieL8yK51uoTUFKYfS4FMtQmF64NRy)
+0143.315 (0) Googledrive chunked upload: 2.4 % uploaded (1048576)
+0144.837 (0) Googledrive chunked upload: 4.8 % uploaded (2097152)
+0146.394 (0) Googledrive chunked upload: 7.2 % uploaded (3145728)
+0147.927 (0) Googledrive chunked upload: 9.7 % uploaded (4194304)
+0149.476 (0) Googledrive chunked upload: 12.1 % uploaded (5242880)
+0151.018 (0) Googledrive chunked upload: 14.5 % uploaded (6291456)
+0152.538 (0) Googledrive chunked upload: 16.9 % uploaded (7340032)
+0154.099 (0) Googledrive chunked upload: 19.3 % uploaded (8388608)
+0155.769 (0) Googledrive chunked upload: 21.7 % uploaded (9437184)
+0157.292 (0) Googledrive chunked upload: 24.1 % uploaded (10485760)
+0158.832 (0) Googledrive chunked upload: 26.6 % uploaded (11534336)
+0160.371 (0) Googledrive chunked upload: 29 % uploaded (12582912)
+0161.304 (0) Googledrive chunked upload: 31.4 % uploaded (13631488)
+0162.837 (0) Googledrive chunked upload: 33.8 % uploaded (14680064)
+0164.382 (0) Googledrive chunked upload: 36.2 % uploaded (15728640)
+0165.913 (0) Googledrive chunked upload: 38.6 % uploaded (16777216)
+0166.901 (0) Googledrive chunked upload: 41.1 % uploaded (17825792)
+0168.438 (0) Googledrive chunked upload: 43.5 % uploaded (18874368)
+0170.016 (0) Googledrive chunked upload: 45.9 % uploaded (19922944)
+0171.718 (0) Googledrive chunked upload: 48.3 % uploaded (20971520)
+0172.703 (0) Googledrive chunked upload: 50.7 % uploaded (22020096)
+0174.220 (0) Googledrive chunked upload: 53.1 % uploaded (23068672)
+0175.750 (0) Googledrive chunked upload: 55.5 % uploaded (24117248)
+0177.282 (0) Googledrive chunked upload: 58 % uploaded (25165824)
+0178.814 (0) Googledrive chunked upload: 60.4 % uploaded (26214400)
+0180.343 (0) Googledrive chunked upload: 62.8 % uploaded (27262976)
+0181.877 (0) Googledrive chunked upload: 65.2 % uploaded (28311552)
+0183.417 (0) Googledrive chunked upload: 67.6 % uploaded (29360128)
+0184.966 (0) Googledrive chunked upload: 70 % uploaded (30408704)
+0186.525 (0) Googledrive chunked upload: 72.4 % uploaded (31457280)
+0188.057 (0) Googledrive chunked upload: 74.9 % uploaded (32505856)
+0189.576 (0) Googledrive chunked upload: 77.3 % uploaded (33554432)
+0190.591 (0) Googledrive chunked upload: 79.7 % uploaded (34603008)
+0191.573 (0) Googledrive chunked upload: 82.1 % uploaded (35651584)
+0193.112 (0) Googledrive chunked upload: 84.5 % uploaded (36700160)
+0194.183 (0) Googledrive chunked upload: 86.9 % uploaded (37748736)
+0195.736 (0) Googledrive chunked upload: 89.3 % uploaded (38797312)
+0197.276 (0) Googledrive chunked upload: 91.8 % uploaded (39845888)
+0198.828 (0) Googledrive chunked upload: 94.2 % uploaded (40894464)
+0200.355 (0) Googledrive chunked upload: 96.6 % uploaded (41943040)
+0201.877 (0) Googledrive chunked upload: 99 % uploaded (42991616)
+0203.806 (0) Googledrive chunked upload: 100 % uploaded (42991616)
+0203.824 (0) Google Drive: OK: Archive backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip uploaded in 63.34 seconds
+0203.830 (0) Recording as successfully uploaded: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip
+0203.850 (0) Deleting local file: backup_2019-04-16-0132_SugarVic_337c17afc8cc-themes.zip: OK
+0204.292 (0) Google Drive: quota usage: used=4644.5 MB, total=15360 MB, available=10715.5 MB
+0204.298 (0) Google Drive: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Nq8ieL8yK51uoTUFKYfS4FMtQmF64NRy)
+0207.054 (0) Googledrive chunked upload: 0.6 % uploaded (1048576)
+0208.028 (0) Googledrive chunked upload: 1.3 % uploaded (2097152)
+0209.561 (0) Googledrive chunked upload: 1.9 % uploaded (3145728)
+0211.087 (0) Googledrive chunked upload: 2.6 % uploaded (4194304)
+0212.606 (0) Googledrive chunked upload: 3.2 % uploaded (5242880)
+0214.142 (0) Googledrive chunked upload: 3.9 % uploaded (6291456)
+0215.659 (0) Googledrive chunked upload: 4.5 % uploaded (7340032)
+0217.202 (0) Googledrive chunked upload: 5.2 % uploaded (8388608)
+0218.725 (0) Googledrive chunked upload: 5.8 % uploaded (9437184)
+0220.254 (0) Googledrive chunked upload: 6.5 % uploaded (10485760)
+0221.771 (0) Googledrive chunked upload: 7.1 % uploaded (11534336)
+0223.307 (0) Googledrive chunked upload: 7.8 % uploaded (12582912)
+0224.380 (0) Googledrive chunked upload: 8.4 % uploaded (13631488)
+0225.921 (0) Googledrive chunked upload: 9 % uploaded (14680064)
+0227.461 (0) Googledrive chunked upload: 9.7 % uploaded (15728640)
+0228.496 (0) Googledrive chunked upload: 10.3 % uploaded (16777216)
+0230.029 (0) Googledrive chunked upload: 11 % uploaded (17825792)
+0231.567 (0) Googledrive chunked upload: 11.6 % uploaded (18874368)
+0233.114 (0) Googledrive chunked upload: 12.3 % uploaded (19922944)
+0234.653 (0) Googledrive chunked upload: 12.9 % uploaded (20971520)
+0236.179 (0) Googledrive chunked upload: 13.6 % uploaded (22020096)
+0237.696 (0) Googledrive chunked upload: 14.2 % uploaded (23068672)
+0239.230 (0) Googledrive chunked upload: 14.9 % uploaded (24117248)
+0240.753 (0) Googledrive chunked upload: 15.5 % uploaded (25165824)
+0242.283 (0) Googledrive chunked upload: 16.2 % uploaded (26214400)
+0243.806 (0) Googledrive chunked upload: 16.8 % uploaded (27262976)
+0244.802 (0) Googledrive chunked upload: 17.4 % uploaded (28311552)
+0245.796 (0) Googledrive chunked upload: 18.1 % uploaded (29360128)
+0247.351 (0) Googledrive chunked upload: 18.7 % uploaded (30408704)
+0248.962 (0) Googledrive chunked upload: 19.4 % uploaded (31457280)
+0250.476 (0) Googledrive chunked upload: 20 % uploaded (32505856)
+0252.031 (0) Googledrive chunked upload: 20.7 % uploaded (33554432)
+0253.566 (0) Googledrive chunked upload: 21.3 % uploaded (34603008)
+0255.088 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.098 (0) Rescheduling resumption 1: moving to 345 seconds from now (1555378974)
+0255.116 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.121 (0) Googledrive chunked upload: 22 % uploaded (35651584)
+0256.640 (0) Googledrive chunked upload: 22.6 % uploaded (36700160)
+0258.203 (0) Googledrive chunked upload: 23.3 % uploaded (37748736)
+0259.744 (0) Googledrive chunked upload: 23.9 % uploaded (38797312)
+0261.271 (0) Googledrive chunked upload: 24.6 % uploaded (39845888)
+0262.822 (0) Googledrive chunked upload: 25.2 % uploaded (40894464)
+0264.360 (0) Googledrive chunked upload: 25.8 % uploaded (41943040)
+0265.893 (0) Googledrive chunked upload: 26.5 % uploaded (42991616)
+0267.435 (0) Googledrive chunked upload: 27.1 % uploaded (44040192)
+0268.422 (0) Googledrive chunked upload: 27.8 % uploaded (45088768)
+0269.378 (0) Googledrive chunked upload: 28.4 % uploaded (46137344)
+0270.906 (0) Googledrive chunked upload: 29.1 % uploaded (47185920)
+0272.440 (0) Googledrive chunked upload: 29.7 % uploaded (48234496)
+0273.395 (0) Googledrive chunked upload: 30.4 % uploaded (49283072)
+0274.349 (0) Googledrive chunked upload: 31 % uploaded (50331648)
+0275.901 (0) Googledrive chunked upload: 31.7 % uploaded (51380224)
+0278.528 (0) Googledrive chunked upload: 32.3 % uploaded (52428800)
+0281.660 (0) Googledrive chunked upload: 33 % uploaded (53477376)
+0282.682 (0) Googledrive chunked upload: 33.6 % uploaded (54525952)
+0283.554 (0) Googledrive chunked upload: 34.3 % uploaded (55574528)
+0285.083 (0) Googledrive chunked upload: 34.9 % uploaded (56623104)
+0286.075 (0) Googledrive chunked upload: 35.5 % uploaded (57671680)
+0287.065 (0) Googledrive chunked upload: 36.2 % uploaded (58720256)
+0288.604 (0) Googledrive chunked upload: 36.8 % uploaded (59768832)
+0290.137 (0) Googledrive chunked upload: 37.5 % uploaded (60817408)
+0291.143 (0) Googledrive chunked upload: 38.1 % uploaded (61865984)
+0292.804 (0) Googledrive chunked upload: 38.8 % uploaded (62914560)
+0295.460 (0) Googledrive chunked upload: 39.4 % uploaded (63963136)
+0297.009 (0) Googledrive chunked upload: 40.1 % uploaded (65011712)
+0298.599 (0) Googledrive chunked upload: 40.7 % uploaded (66060288)
+0300.131 (0) Googledrive chunked upload: 41.4 % uploaded (67108864)
+0303.810 (0) Googledrive chunked upload: 42 % uploaded (68157440)
+0304.796 (0) Googledrive chunked upload: 42.7 % uploaded (69206016)
+0307.902 (0) Googledrive chunked upload: 43.3 % uploaded (70254592)
+0308.892 (0) Googledrive chunked upload: 43.9 % uploaded (71303168)
+0310.433 (0) Googledrive chunked upload: 44.6 % uploaded (72351744)
+0311.453 (0) Googledrive chunked upload: 45.2 % uploaded (73400320)
+0312.977 (0) Googledrive chunked upload: 45.9 % uploaded (74448896)
+0314.498 (0) Googledrive chunked upload: 46.5 % uploaded (75497472)
+0316.030 (0) The time we have been running (316) is approaching the resumption interval (345) - increasing resumption interval to 347
+0316.040 (0) Googledrive chunked upload: 47.2 % uploaded (76546048)
+0317.039 (0) The time we have been running (317) is approaching the resumption interval (347) - increasing resumption interval to 348
+0317.048 (0) Googledrive chunked upload: 47.8 % uploaded (77594624)
+0318.032 (0) The time we have been running (318) is approaching the resumption interval (348) - increasing resumption interval to 349
+0318.046 (0) Googledrive chunked upload: 48.5 % uploaded (78643200)
+0319.589 (0) The time we have been running (319.6) is approaching the resumption interval (349) - increasing resumption interval to 350
+0319.599 (0) Googledrive chunked upload: 49.1 % uploaded (79691776)
+0321.138 (0) The time we have been running (321.1) is approaching the resumption interval (350) - increasing resumption interval to 352
+0321.149 (0) Googledrive chunked upload: 49.8 % uploaded (80740352)
+0322.696 (0) The time we have been running (322.7) is approaching the resumption interval (352) - increasing resumption interval to 353
+0322.707 (0) Googledrive chunked upload: 50.4 % uploaded (81788928)
+0323.705 (0) The time we have been running (323.7) is approaching the resumption interval (353) - increasing resumption interval to 354
+0323.715 (0) Googledrive chunked upload: 51.1 % uploaded (82837504)
+0324.724 (0) The time we have been running (324.7) is approaching the resumption interval (354) - increasing resumption interval to 355
+0324.735 (0) Googledrive chunked upload: 51.7 % uploaded (83886080)
+0326.282 (0) The time we have been running (326.3) is approaching the resumption interval (355) - increasing resumption interval to 357
+0326.294 (0) Googledrive chunked upload: 52.3 % uploaded (84934656)
+0327.291 (0) The time we have been running (327.3) is approaching the resumption interval (357) - increasing resumption interval to 358
+0327.302 (0) Googledrive chunked upload: 53 % uploaded (85983232)
+0328.299 (0) The time we have been running (328.3) is approaching the resumption interval (358) - increasing resumption interval to 359
+0328.310 (0) Googledrive chunked upload: 53.6 % uploaded (87031808)
+0329.864 (0) The time we have been running (329.8) is approaching the resumption interval (359) - increasing resumption interval to 360
+0329.874 (0) Googledrive chunked upload: 54.3 % uploaded (88080384)
+0330.892 (0) The time we have been running (330.9) is approaching the resumption interval (360) - increasing resumption interval to 361
+0330.906 (0) Googledrive chunked upload: 54.9 % uploaded (89128960)
+0332.449 (0) The time we have been running (332.4) is approaching the resumption interval (361) - increasing resumption interval to 363
+0332.460 (0) Googledrive chunked upload: 55.6 % uploaded (90177536)
+0333.999 (0) The time we have been running (334) is approaching the resumption interval (363) - increasing resumption interval to 364
+0334.011 (0) Googledrive chunked upload: 56.2 % uploaded (91226112)
+0335.549 (0) The time we have been running (335.5) is approaching the resumption interval (364) - increasing resumption interval to 366
+0335.562 (0) Googledrive chunked upload: 56.9 % uploaded (92274688)
+0336.557 (0) The time we have been running (336.5) is approaching the resumption interval (366) - increasing resumption interval to 367
+0336.568 (0) Googledrive chunked upload: 57.5 % uploaded (93323264)
+0338.104 (0) The time we have been running (338.1) is approaching the resumption interval (367) - increasing resumption interval to 369
+0338.120 (0) Googledrive chunked upload: 58.2 % uploaded (94371840)
+0339.135 (0) The time we have been running (339.1) is approaching the resumption interval (369) - increasing resumption interval to 370
+0339.145 (0) Googledrive chunked upload: 58.8 % uploaded (95420416)
+0340.681 (0) The time we have been running (340.7) is approaching the resumption interval (370) - increasing resumption interval to 371
+0340.691 (0) Googledrive chunked upload: 59.5 % uploaded (96468992)
+0342.248 (0) The time we have been running (342.2) is approaching the resumption interval (371) - increasing resumption interval to 373
+0342.261 (0) Googledrive chunked upload: 60.1 % uploaded (97517568)
+0343.280 (0) The time we have been running (343.3) is approaching the resumption interval (373) - increasing resumption interval to 374
+0343.290 (0) Googledrive chunked upload: 60.7 % uploaded (98566144)
+0344.830 (0) The time we have been running (344.8) is approaching the resumption interval (374) - increasing resumption interval to 375
+0344.841 (0) Googledrive chunked upload: 61.4 % uploaded (99614720)
+0346.381 (0) The time we have been running (346.4) is approaching the resumption interval (375) - increasing resumption interval to 377
+0346.393 (0) Googledrive chunked upload: 62 % uploaded (100663296)
+0347.986 (0) The time we have been running (348) is approaching the resumption interval (377) - increasing resumption interval to 378
+0347.998 (0) Googledrive chunked upload: 62.7 % uploaded (101711872)
+0349.544 (0) The time we have been running (349.5) is approaching the resumption interval (378) - increasing resumption interval to 380
+0349.555 (0) Googledrive chunked upload: 63.3 % uploaded (102760448)
+0351.092 (0) The time we have been running (351.1) is approaching the resumption interval (380) - increasing resumption interval to 382
+0351.102 (0) Googledrive chunked upload: 64 % uploaded (103809024)
+0352.094 (0) The time we have been running (352.1) is approaching the resumption interval (382) - increasing resumption interval to 383
+0352.107 (0) Googledrive chunked upload: 64.6 % uploaded (104857600)
+0353.643 (0) The time we have been running (353.6) is approaching the resumption interval (383) - increasing resumption interval to 384
+0353.654 (0) Googledrive chunked upload: 65.3 % uploaded (105906176)
+0355.204 (0) The time we have been running (355.2) is approaching the resumption interval (384) - increasing resumption interval to 386
+0355.215 (0) Googledrive chunked upload: 65.9 % uploaded (106954752)
+0356.207 (0) The time we have been running (356.2) is approaching the resumption interval (386) - increasing resumption interval to 387
+0356.217 (0) Googledrive chunked upload: 66.6 % uploaded (108003328)
+0357.759 (0) The time we have been running (357.7) is approaching the resumption interval (387) - increasing resumption interval to 388
+0357.766 (0) Googledrive chunked upload: 67.2 % uploaded (109051904)
+0359.301 (0) The time we have been running (359.3) is approaching the resumption interval (388) - increasing resumption interval to 390
+0359.312 (0) Googledrive chunked upload: 67.9 % uploaded (110100480)
+0360.309 (0) The time we have been running (360.3) is approaching the resumption interval (390) - increasing resumption interval to 391
+0360.323 (0) Googledrive chunked upload: 68.5 % uploaded (111149056)
+0361.323 (0) The time we have been running (361.3) is approaching the resumption interval (391) - increasing resumption interval to 392
+0361.334 (0) Googledrive chunked upload: 69.1 % uploaded (112197632)
+0362.345 (0) The time we have been running (362.3) is approaching the resumption interval (392) - increasing resumption interval to 393
+0362.357 (0) Googledrive chunked upload: 69.8 % uploaded (113246208)
+0363.889 (0) The time we have been running (363.9) is approaching the resumption interval (393) - increasing resumption interval to 394
+0363.901 (0) Googledrive chunked upload: 70.4 % uploaded (114294784)
+0364.898 (0) The time we have been running (364.9) is approaching the resumption interval (394) - increasing resumption interval to 395
+0364.911 (0) Googledrive chunked upload: 71.1 % uploaded (115343360)
+0365.908 (0) The time we have been running (365.9) is approaching the resumption interval (395) - increasing resumption interval to 396
+0365.923 (0) Googledrive chunked upload: 71.7 % uploaded (116391936)
+0366.916 (0) The time we have been running (366.9) is approaching the resumption interval (396) - increasing resumption interval to 397
+0366.928 (0) Googledrive chunked upload: 72.4 % uploaded (117440512)
+0367.928 (0) The time we have been running (367.9) is approaching the resumption interval (397) - increasing resumption interval to 398
+0367.959 (0) Googledrive chunked upload: 73 % uploaded (118489088)
+0368.959 (0) The time we have been running (368.9) is approaching the resumption interval (398) - increasing resumption interval to 399
+0368.973 (0) Googledrive chunked upload: 73.7 % uploaded (119537664)
+0370.600 (0) The time we have been running (370.6) is approaching the resumption interval (399) - increasing resumption interval to 401
+0370.614 (0) Googledrive chunked upload: 74.3 % uploaded (120586240)
+0372.225 (0) The time we have been running (372.2) is approaching the resumption interval (401) - increasing resumption interval to 403
+0372.237 (0) Googledrive chunked upload: 75 % uploaded (121634816)
+0373.782 (0) The time we have been running (373.8) is approaching the resumption interval (403) - increasing resumption interval to 404
+0373.792 (0) Googledrive chunked upload: 75.6 % uploaded (122683392)
+0374.830 (0) The time we have been running (374.8) is approaching the resumption interval (404) - increasing resumption interval to 405
+0374.842 (0) Googledrive chunked upload: 76.3 % uploaded (123731968)
+0375.845 (0) The time we have been running (375.8) is approaching the resumption interval (405) - increasing resumption interval to 406
+0375.855 (0) Googledrive chunked upload: 76.9 % uploaded (124780544)
+0377.411 (0) The time we have been running (377.4) is approaching the resumption interval (406) - increasing resumption interval to 408
+0377.422 (0) Googledrive chunked upload: 77.5 % uploaded (125829120)
+0378.955 (0) The time we have been running (378.9) is approaching the resumption interval (408) - increasing resumption interval to 409
+0378.963 (0) Googledrive chunked upload: 78.2 % uploaded (126877696)
+0379.950 (0) The time we have been running (379.9) is approaching the resumption interval (409) - increasing resumption interval to 410
+0379.960 (0) Googledrive chunked upload: 78.8 % uploaded (127926272)
+0380.957 (0) The time we have been running (380.9) is approaching the resumption interval (410) - increasing resumption interval to 411
+0380.970 (0) Googledrive chunked upload: 79.5 % uploaded (128974848)
+0382.527 (0) The time we have been running (382.5) is approaching the resumption interval (411) - increasing resumption interval to 413
+0382.537 (0) Googledrive chunked upload: 80.1 % uploaded (130023424)
+0384.063 (0) The time we have been running (384.1) is approaching the resumption interval (413) - increasing resumption interval to 415
+0384.074 (0) Googledrive chunked upload: 80.8 % uploaded (131072000)
+0385.610 (0) The time we have been running (385.6) is approaching the resumption interval (415) - increasing resumption interval to 416
+0385.620 (0) Googledrive chunked upload: 81.4 % uploaded (132120576)
+0387.201 (0) The time we have been running (387.2) is approaching the resumption interval (416) - increasing resumption interval to 418
+0387.211 (0) Googledrive chunked upload: 82.1 % uploaded (133169152)
+0388.192 (0) The time we have been running (388.2) is approaching the resumption interval (418) - increasing resumption interval to 419
+0388.203 (0) Googledrive chunked upload: 82.7 % uploaded (134217728)
+0389.719 (0) The time we have been running (389.7) is approaching the resumption interval (419) - increasing resumption interval to 420
+0389.728 (0) Googledrive chunked upload: 83.4 % uploaded (135266304)
+0390.701 (0) The time we have been running (390.7) is approaching the resumption interval (420) - increasing resumption interval to 421
+0390.712 (0) Googledrive chunked upload: 84 % uploaded (136314880)
+0391.714 (0) The time we have been running (391.7) is approaching the resumption interval (421) - increasing resumption interval to 422
+0391.723 (0) Googledrive chunked upload: 84.7 % uploaded (137363456)
+0393.244 (0) The time we have been running (393.2) is approaching the resumption interval (422) - increasing resumption interval to 424
+0393.256 (0) Googledrive chunked upload: 85.3 % uploaded (138412032)
+0394.780 (0) The time we have been running (394.8) is approaching the resumption interval (424) - increasing resumption interval to 425
+0394.791 (0) Googledrive chunked upload: 86 % uploaded (139460608)
+0395.772 (0) The time we have been running (395.8) is approaching the resumption interval (425) - increasing resumption interval to 426
+0395.783 (0) Googledrive chunked upload: 86.6 % uploaded (140509184)
+0397.312 (0) The time we have been running (397.3) is approaching the resumption interval (426) - increasing resumption interval to 428
+0397.322 (0) Googledrive chunked upload: 87.2 % uploaded (141557760)
+0398.310 (0) The time we have been running (398.3) is approaching the resumption interval (428) - increasing resumption interval to 429
+0398.320 (0) Googledrive chunked upload: 87.9 % uploaded (142606336)
+0399.328 (0) The time we have been running (399.3) is approaching the resumption interval (429) - increasing resumption interval to 430
+0399.339 (0) Googledrive chunked upload: 88.5 % uploaded (143654912)
+0400.859 (0) The time we have been running (400.9) is approaching the resumption interval (430) - increasing resumption interval to 431
+0400.869 (0) Googledrive chunked upload: 89.2 % uploaded (144703488)
+0402.425 (0) The time we have been running (402.4) is approaching the resumption interval (431) - increasing resumption interval to 433
+0402.435 (0) Googledrive chunked upload: 89.8 % uploaded (145752064)
+0403.437 (0) The time we have been running (403.4) is approaching the resumption interval (433) - increasing resumption interval to 434
+0403.447 (0) Googledrive chunked upload: 90.5 % uploaded (146800640)
+0404.981 (0) The time we have been running (405) is approaching the resumption interval (434) - increasing resumption interval to 435
+0404.991 (0) Googledrive chunked upload: 91.1 % uploaded (147849216)
+0405.978 (0) The time we have been running (406) is approaching the resumption interval (435) - increasing resumption interval to 436
+0405.987 (0) Googledrive chunked upload: 91.8 % uploaded (148897792)
+0406.985 (0) The time we have been running (407) is approaching the resumption interval (436) - increasing resumption interval to 437
+0406.995 (0) Googledrive chunked upload: 92.4 % uploaded (149946368)
+0407.980 (0) The time we have been running (408) is approaching the resumption interval (437) - increasing resumption interval to 438
+0407.990 (0) Googledrive chunked upload: 93.1 % uploaded (150994944)
+0409.552 (0) The time we have been running (409.5) is approaching the resumption interval (438) - increasing resumption interval to 440
+0409.562 (0) Googledrive chunked upload: 93.7 % uploaded (152043520)
+0411.105 (0) The time we have been running (411.1) is approaching the resumption interval (440) - increasing resumption interval to 442
+0411.114 (0) Googledrive chunked upload: 94.4 % uploaded (153092096)
+0412.674 (0) The time we have been running (412.7) is approaching the resumption interval (442) - increasing resumption interval to 443
+0412.684 (0) Googledrive chunked upload: 95 % uploaded (154140672)
+0414.224 (0) The time we have been running (414.2) is approaching the resumption interval (443) - increasing resumption interval to 445
+0414.234 (0) Googledrive chunked upload: 95.6 % uploaded (155189248)
+0415.221 (0) The time we have been running (415.2) is approaching the resumption interval (445) - increasing resumption interval to 446
+0415.231 (0) Googledrive chunked upload: 96.3 % uploaded (156237824)
+0416.234 (0) The time we have been running (416.2) is approaching the resumption interval (446) - increasing resumption interval to 447
+0416.246 (0) Googledrive chunked upload: 96.9 % uploaded (157286400)
+0417.778 (0) The time we have been running (417.8) is approaching the resumption interval (447) - increasing resumption interval to 448
+0417.788 (0) Googledrive chunked upload: 97.6 % uploaded (158334976)
+0418.778 (0) The time we have been running (418.8) is approaching the resumption interval (448) - increasing resumption interval to 449
+0418.787 (0) Googledrive chunked upload: 98.2 % uploaded (159383552)
+0419.759 (0) The time we have been running (419.8) is approaching the resumption interval (449) - increasing resumption interval to 450
+0419.769 (0) Googledrive chunked upload: 98.9 % uploaded (160432128)
+0421.295 (0) The time we have been running (421.3) is approaching the resumption interval (450) - increasing resumption interval to 452
+0421.305 (0) Googledrive chunked upload: 99.5 % uploaded (161480704)
+0423.396 (0) The time we have been running (423.4) is approaching the resumption interval (452) - increasing resumption interval to 454
+0423.407 (0) Googledrive chunked upload: 100 % uploaded (161480704)
+0423.423 (0) Google Drive: OK: Archive backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip uploaded in 219.12 seconds
+0423.428 (0) Recording as successfully uploaded: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip
+0423.464 (0) Deleting local file: backup_2019-04-16-0132_SugarVic_337c17afc8cc-uploads.zip: OK
+0423.899 (0) Google Drive: quota usage: used=4846.8 MB, total=15360 MB, available=10513.2 MB
+0423.905 (0) Google Drive: backup_2019-04-16-0132_SugarVic_337c17afc8cc-others.zip: Attempting to upload to Google Drive (into folder id: 1Nq8ieL8yK51uoTUFKYfS4FMtQmF64NRy)
+0425.514 (0) The time we have been running (425.5) is approaching the resumption interval (454) - increasing resumption interval to 456
+0425.523 (0) Googledrive chunked upload: 31 % uploaded (1048576)
+0426.492 (0) The time we have been running (426.5) is approaching the resumption interval (456) - increasing resumption interval to 457
+0426.502 (0) Googledrive chunked upload: 62.1 % uploaded (2097152)
+0427.489 (0) The time we have been running (427.5) is approaching the resumption interval (457) - increasing resumption interval to 458
+0427.499 (0) Googledrive chunked upload: 93.1 % uploaded (3145728)
+0429.822 (0) The time we have been running (429.8) is approaching the resumption interval (458) - increasing resumption interval to 460
+0429.831 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0429.846 (0) Google Drive: OK: Archive backup_2019-04-16-0132_SugarVic_337c17afc8cc-others.zip uploaded in 5.94 seconds
+0429.850 (0) Recording as successfully uploaded: backup_2019-04-16-0132_SugarVic_337c17afc8cc-others.zip
+0429.861 (0) Deleting local file: backup_2019-04-16-0132_SugarVic_337c17afc8cc-others.zip: OK
+0430.401 (0) Google Drive: quota usage: used=4891.5 MB, total=15360 MB, available=10468.5 MB
+0430.406 (0) Google Drive: backup_2019-04-16-0132_SugarVic_337c17afc8cc-db.gz: Attempting to upload to Google Drive (into folder id: 1Nq8ieL8yK51uoTUFKYfS4FMtQmF64NRy)
+0432.048 (0) The time we have been running (432) is approaching the resumption interval (460) - increasing resumption interval to 463
+0432.060 (0) Googledrive chunked upload: 64.4 % uploaded (1048576)
+0433.992 (0) The time we have been running (434) is approaching the resumption interval (463) - increasing resumption interval to 464
+0434.005 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0434.023 (0) Google Drive: OK: Archive backup_2019-04-16-0132_SugarVic_337c17afc8cc-db.gz uploaded in 3.61 seconds
+0434.029 (0) Recording as successfully uploaded: backup_2019-04-16-0132_SugarVic_337c17afc8cc-db.gz
+0434.041 (0) Deleting local file: backup_2019-04-16-0132_SugarVic_337c17afc8cc-db.gz: OK
+0434.052 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0434.057 (0) Number of backup sets in history: 3; groups (db): 1
+0434.063 (0) Examining (for databases) backup set with group_id=0, nonce=8773f58fddb9, datestamp=1555378750 (Apr 16 2019 01:39:10)
+0434.069 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0434.074 (0) Examining (for databases) backup set with group_id=0, nonce=4cb4218ba8c9, datestamp=1555378632 (Apr 16 2019 01:37:12)
+0434.074 (0) Examining (for databases) backup set with group_id=0, nonce=337c17afc8cc, datestamp=1555378374 (Apr 16 2019 01:32:54)
+0434.074 (0) This backup set is the backup set just made, so will not be deleted.
+0434.074 (0) Number of backup sets in history: 3; groups (files): 1
+0434.079 (0) Examining (for files) backup set with nonce=8773f58fddb9, datestamp=1555378750 (Apr 16 2019 01:39:10)
+0434.079 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0434.084 (0) Examining (for files) backup set with nonce=4cb4218ba8c9, datestamp=1555378632 (Apr 16 2019 01:37:12)
+0434.084 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0434.089 (0) Examining (for files) backup set with nonce=337c17afc8cc, datestamp=1555378374 (Apr 16 2019 01:32:54)
+0434.089 (0) This backup set is the backup set just made, so will not be deleted.
+0434.094 (0) This backup set is the backup set just made, so will not be deleted.
+0434.094 (0) This backup set is the backup set just made, so will not be deleted.
+0434.094 (0) This backup set is the backup set just made, so will not be deleted.
+0434.094 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0434.099 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0434.110 (0) Resume backup (337c17afc8cc, 0): finish run
+0434.126 (0) Decremented the semaphore (fd) by 1
+0434.137 (0) Semaphore (fd) unlocked
+0434.143 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0434.167 (0) The backup apparently succeeded and is now complete
+0434.176 (0) Fetching RSS news feed
+0434.185 (0) Fetched RSS news feed; result is a: SimplePie
+0434.200 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: user@...
+0434.212 (0) 备份成功完成
+0000.000 (1) Opened log file at time: Tue, 16 Apr 2019 01:49:52 +0000 on https://sugarvic.tk
+0000.005 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.1.1 PHP: 7.2.16 (fpm-fcgi, Linux wordpresspro-1-vm 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64) MySQL: 8.0.15 WPLANG: en_US Server: nginx/1.14.2 safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 7.7M | 8M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.010 (1) Free space on disk containing Updraft's temporary directory: 5079.6 MB
+0000.014 (1) This backup task (337c17afc8cc) is either complete or began over 2 days ago: ending (1555379392.1644, ) (existing jobdata keys: )

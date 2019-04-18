@@ -1,0 +1,39 @@
+.wprm-recipe-ingredient-links-form {
+    .wprm-ingredient-links-warning {
+        // display: none;
+        border: 1px solid darkblue;
+        background-color: rgba(0,0,255,0.15);
+        padding: 10px;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.wprm-ingredient-links-container {
+    width: 100%;
+    max-width: 800px;
+
+    td {
+        width: 25%;
+
+        &:nth-child(2) {
+            width: 50%;
+        }
+    }
+
+    input, select {
+        width: 100%;
+    }
+}
+
+.wprm-recipe-nutrition-facts-form {
+    .wprm-recipe-form-container {
+        input {
+            max-width: 80px !important;
+
+            &#wprm-recipe-nutrition-serving-unit {
+                vertical-align: top;
+            }
+        }
+    }
+}

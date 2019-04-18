@@ -1,0 +1,166 @@
+
+.rest-userinput{
+	width: 100%;
+	margin-bottom: 30px; 
+
+}
+#rest_sub, #rest_cuisine{
+	border-radius: 5px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.rest-subwrap {width: 35%;}
+#rest_sub, #rest_cuisine {width: 100%;}
+.rest-cuiwrap {width: 35%; margin-left: 5px;}
+#rest_search {width: 20%; margin-left: 3px; }
+#rest_sub:hover,#rest_cuisine:hover{border:1px solid #720812;}
+.sortwrap {padding: 0 5px;}
+#rest_sort, #rest_order {width: 10%;}
+#rest_sort:hover, #rest_sort:focus,#rest_order:hover, #rest_order:focus {border:1px solid #720812; outline: none;}
+@media(max-width: 600px) {
+	.rest-subwrap {width: 100%; margin: 3px 0;}
+	.rest-cuiwrap {width: 100%; margin: 3px 0;}
+	#rest_search {width: 100%; margin: 3px 0;}
+	#rest_sort, #rest_order {width: 30%;}
+}
+.preload {
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 10;
+}
+
+
+.restcontainer {
+	position: relative;
+	width: 100%;
+	min-height: 50vh;
+	overflow: auto;
+}
+.cardcontainer {
+	width: 100%;
+	padding: 40px 10px 70px 10px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+	grid-gap: 3em;
+	overflow: auto;
+}
+.rest-card {
+	width: 100%;
+    min-height: 330px;
+    position: relative;
+	transform-style: preserve-3d;
+	transition: transform 0.5s ease;
+}
+.rest-card * {
+	color: white;
+}
+
+/*front side*/
+.rest-cardfront, .rest-cardback {
+	position:absolute;
+	width:100%; height:100%; 
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s ;
+	transition: transform .5s ;
+	box-shadow: 0 0px 20px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+
+.rest-cardfront {
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg ); 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rest-cardback {
+	-webkit-transform: perspective( 600px ) rotateY( 180deg );
+	transform: perspective( 600px ) rotateY( 180deg );
+	background: #2e2d2e; 
+}
+.rest-card:hover > .rest-cardfront{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.rest-card:hover > .rest-cardback{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+
+.frontcontent {
+	text-align: center;
+	width: 100%;
+	padding: 0 10px;
+}
+.frontcontent h1 {
+	font-size: 38px;
+	letter-spacing: 1px;
+}
+
+/*backside*/
+.backcontent {
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	position: relative;
+}
+.backcontent h1{
+	display: inline-block;
+	height: 20%;
+}
+.backcontent span {
+	margin: auto;
+	padding: 0;
+	display: inline-block;
+	vertical-align:top;
+	font-size: 14px;
+	overflow-wrap: normal;
+}
+.backcontent a{
+	display: inline-block;
+	text-align: center;
+	width: 93%;
+	padding: 5px 0;
+	background-color: #720812;
+	position: absolute;
+	bottom: 10%;
+}
+.backcontent a:hover {
+	color: white;
+	background-color: #720812;
+}
+.type {
+	width: 35%;
+}
+.value {
+	width: 65%;
+}
+
+/* rate pannel */
+.rest-rate {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px 10px;
+	border-radius: 0 15px 0 5px;
+	z-index: 99;
+}
+.rest-rate * {
+	margin: 0;
+	padding: 0;
+}
+
+.rest-showmore {
+	display: none; width: 100%; text-align: center;
+}
+.rest-showmore button {
+	margin: 0 auto; background-color: white; border: none; color: black;
+}
+.rest-showmore button:hover {
+	color: #720812;
+}

@@ -1,0 +1,52 @@
+// Modern Template
+.wprm-recipe li {
+    position: relative;
+    .wprm-checkbox {
+        display: inline-block;
+        position: absolute;
+        left: -1.3em;
+        top: 0.25em;
+        line-height: 0.9em;
+
+        svg {
+            width: 0.9em;
+            height: 0.9em;
+            overflow: visible;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .wprm-checkbox-checked {
+        display: none;
+    }
+
+    &.wprm-checkbox-is-checked {
+        text-decoration: line-through;
+
+        .wprm-checkbox-empty {
+            display: none;
+        }
+        .wprm-checkbox-checked {
+            display: inline-block;
+        }
+    }
+}
+
+// Legacy Template
+.wprm-list-checkbox-container {
+    &:before {
+        display: none !important;
+    }
+
+    &.wprm-list-checkbox-checked {
+        text-decoration: line-through;
+    }
+
+    .wprm-list-checkbox {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

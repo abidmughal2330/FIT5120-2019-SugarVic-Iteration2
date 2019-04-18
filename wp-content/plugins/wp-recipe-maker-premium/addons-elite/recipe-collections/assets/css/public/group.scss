@@ -1,0 +1,25 @@
+@import './variables';
+
+.wprmprc-collection-group {
+    flex: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    .wprmprc-collection-group-header {
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .wprmprc-collection-group-items {
+        flex: 1;
+        padding: 10px 0;
+        min-height: 30px;
+        border-bottom-left-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+
+        &.wprmprc-collection-group-items-draggingover {
+            background-color: $color-item-dropzone;
+        }
+    }
+}

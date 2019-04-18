@@ -1,0 +1,14 @@
+@import './variables';
+
+.wprmprc-print {
+    display: none;
+}
+@media print {
+    body.wprmprc-printing > *:not(.wprmprc-print) {
+        display: none !important;
+    }
+    
+    body.wprmprc-printing .wprmprc-print {
+        display: block;
+    }
+}

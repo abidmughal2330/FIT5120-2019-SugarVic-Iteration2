@@ -1,0 +1,11 @@
+.idea/
+.DS_Store
+.zip
+**/.git/
+**/*.iml
+*.yml
+.env
+/nbproject/private/
+/nbproject
+**/*/node_modules
+**/*/build/bundle.dev.js

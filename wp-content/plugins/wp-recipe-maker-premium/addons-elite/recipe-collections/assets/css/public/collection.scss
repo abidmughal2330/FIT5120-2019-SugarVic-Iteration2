@@ -1,0 +1,48 @@
+@import './variables';
+
+.wprmprc-collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+
+    .wprmprc-collection-column-balancer {
+        visibility: hidden;
+    }
+
+    .wprmprc-collection-column-balancer,
+    .wprmprc-collection-column,
+    .wprmprc-collection-actions {
+        margin: 10px;
+    }
+
+    .wprmprc-collection-column,
+    .wprmprc-collection-actions:not(.wprmprc-collection-actions-overview) {
+        background-color: $color-collection;
+    }
+
+    .wprmprc-collection-column {
+        border: 1px solid $color-collection-border;
+        border-radius: $border-radius;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wprmprc-collection-column-header {
+        background-color: $color-collection-border;
+        border-top-left-radius: calc(#{$border-radius} - 1px);
+        border-top-right-radius: calc(#{$border-radius} - 1px);
+
+        color: $color-collection-text;
+        text-align: center;
+        padding: 10px 5px;
+        font-weight: bold;
+    }
+
+    .wprmprc-collection-column-groups {
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+    }
+}

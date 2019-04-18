@@ -1,0 +1,42 @@
+@import './variables';
+
+.wprmprc-overview {
+    border: 1px solid $color-collection-border;
+    border-radius: $border-radius;
+
+    background-color: $color-collection;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.wprmprc-overview-header {
+    background-color: $color-collection-border;
+    border-top-left-radius: calc(#{$border-radius} - 1px);
+    border-top-right-radius: calc(#{$border-radius} - 1px);
+
+    color: $color-collection-text;
+    text-align: center;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+.wprmprc-overview-collection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    &.wprmprc-overview-collection-view:hover {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .wprmprc-overview-collection-name {
+        flex: 1;
+    }
+
+    .wprmprc-overview-collection-items {
+        flex: auto;
+        text-align: right;
+    }
+}

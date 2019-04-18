@@ -1,0 +1,109 @@
+.wprm-button-calculate-nutrition {
+    margin-bottom: 10px !important;
+}
+
+.wprm-nutrition-mapping-container,
+.wprm-nutrition-mapping-ingredient-container,
+.wprm-nutrition-saved-ingredients-container,
+.wprm-nutrition-calculation-container {
+    display: none;
+}
+
+.wprm-nutrition-mapping-source-placeholder {
+    display: none;
+}
+
+.wprm-nutrition-mapping-container-table {
+    width: 100%;
+    max-width: 800px;
+
+    th {
+        text-align: left;
+    }
+
+    td {        
+        &:nth-child(1) { width: 40%; }
+        &:nth-child(2) { width: 20%; }
+        &:nth-child(3) { width: 40%; }
+
+        input.wprm-nutrition-mapping-ingredient-amount {
+            max-width: 50px;
+        }
+        input.wprm-nutrition-mapping-ingredient-unit {
+            max-width: 80px;
+        }
+        .wprm-nutrition-mapping-ingredient-no-match {
+            color:darkred !important;
+        }
+    }
+}
+
+.wprm-nutrition-mapping-ingredient-container {
+    .wprm-nutrition-mapping-ingredient-search-result {
+        display: inline-block;
+        width: 150px;
+        border: 1px dashed black;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        vertical-align: top;
+
+        &:hover {
+            border-style: solid;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 100px;
+        }
+    }
+}
+
+.wprm-nutrition-saved-ingredients-container {
+    .wprm-nutrition-saved-ingredient-amount,
+    .wprm-nutrition-saved-ingredient-details-amount {
+        max-width: 50px;
+    }
+    .wprm-nutrition-saved-ingredient-unit {
+        max-width: 80px;
+    }
+    .wprm-nutrition-saved-ingredient-name {
+        max-width: 150px;
+    }
+
+    .wprm-nutrition-saved-ingredient-details {
+        display: none;
+        margin-top: 10px;
+    }
+}
+
+.wprm-nutrition-saved-ingredients-fields,
+.wprm-nutrition-saved-ingredient-details-fields,
+.wprm-nutrition-calculation-result-nutrition-full {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+    list-style-type: none;
+
+    input {
+        width: 60px;
+        margin: 0 2px;
+        height: 20px;
+        font-size: 14px;
+        padding: 2px;
+    }
+}
+
+.wprm-nutrition-calculation-container {
+    .wprm-nutrition-calculation-result label {
+       vertical-align: top;
+    }
+
+    .wprm-nutrition-saved-ingredients-fields,
+    .wprm-nutrition-calculation-result-nutrition-full {
+        display: none;
+    }
+}

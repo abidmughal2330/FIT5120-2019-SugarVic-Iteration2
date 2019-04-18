@@ -1,0 +1,144 @@
+.wprm-admin-modal-recipe-nutrition-calculation {
+    padding: 10px;
+    overflow: scroll;
+}
+
+.wprm-admin-modal-recipe-nutrition-calculation-source {
+    thead {
+        display: none;
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    td {
+        display: block;
+        font-size: 16px;
+        
+        &:first-child {
+            display: none;
+        }
+
+        input {
+            max-width: 100px;
+            margin-right: 5px !important;
+
+            &[type=number] {
+                max-width: 80px;
+            }
+        }
+    }
+
+    .wprm-admin-modal-recipe-nutrition-calculation-source-no-match {
+        color: darkred;
+    }
+}
+
+.wprm-admin-modal-recipe-nutrition-calculation-match {
+
+    .wprm-admin-modal-recipe-nutrition-calculation-match-search {
+        display: flex;
+        align-items: center;
+
+        input {
+            max-width: 300px;
+        }
+
+        button {
+            margin-left: 5px;
+        }
+    }
+
+    .wprm-admin-loader {
+        margin-top: 15px;
+    }
+
+    .wprm-admin-modal-recipe-nutrition-calculation-matches {
+        margin: -5px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .wprm-admin-modal-recipe-nutrition-calculation-matches-option {
+            flex: 0 0 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            border: 1px dashed black;
+            border-radius: 4px;
+
+            margin: 5px;
+            padding: 5px;
+    
+            &:hover {
+                border-style: solid;
+                cursor: pointer;
+            }
+    
+            img {
+                max-width: 100px;
+            }
+
+            div {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 782px) {
+    .wprm-admin-modal-recipe-nutrition-calculation-source {
+        thead {
+            display: table-header-group;
+
+            th {
+                text-align: left;
+                padding-right: 10px;
+
+                &:first-child {
+                    display: none;
+                }
+            }
+        }
+
+        tr {
+            display: table-row;
+            margin-bottom: 0;
+        }
+
+        td {
+            display: table-cell;
+            font-size: 14px;
+            padding-right: 10px;
+
+            &:nth-child(2) {
+                display: flex;
+                align-items: center;
+            }
+
+            &:nth-child(3) {
+                min-width: 160px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .wprm-admin-modal-recipe-nutrition-calculation-source {
+        thead {
+            th {
+                &:first-child {
+                    display: table-cell;
+                }
+            }
+        }
+        td {
+            &:first-child {
+                display: table-cell;
+            }
+        }
+    }
+}

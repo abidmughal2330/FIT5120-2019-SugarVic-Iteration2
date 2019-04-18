@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Recipe Maker Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-18 20:15+0000\n"
+"PO-Revision-Date: 2016-12-18 20:27+0000\n"
+"Last-Translator: Sandra Test <blemele67@gmail.com>\n"
+"Language-Team: French (France)\n"
+"Language: fr-FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/class-wp-recipe-maker-premium.php:94
+msgid ""
+"The plugin has not been loaded because it requires the following plugin(s) "
+"to be activated:"
+msgstr ""
+"Le plugin n'a pas été chargé car il nécessite le(s) plugin(s) suivant(s) :"
+
+#: includes/class-wp-recipe-maker-premium.php:108
+msgid ""
+"The plugin has not been loaded because it requires at least the following "
+"plugin versions:"
+msgstr ""
+"Le plugin n'a pas été chargé car il nécessite au minimum les versions "
+"suivantes:"
+
+#: includes/admin/class-wprmp-license.php:106
+msgid "License"
+msgstr "Licence"
+
+#: includes/admin/class-wprmp-license.php:244
+msgid "Activate your license key to receive automatic updates."
+msgstr ""
+"Activez votre clé de license pour recevoir les mises à jour automatiques."
+
+#: includes/admin/class-wprmp-license.php:245
+msgid "Activate now"
+msgstr "Activer maintenant"
+
+#: includes/admin/class-wprmp-license.php:246
+msgid "Get a License"
+msgstr "Obtenir une licence"
+
+#: includes/admin/class-wprmp-modal.php:54
+#: templates/public/nutrition-label.php:51
+msgid "Nutrition Facts"
+msgstr "Infos nutritionnelles"
+
+#: includes/admin/class-wprmp-modal.php:62
+msgid "Nutrition Label"
+msgstr "Etiquette nutritionnelle"
+
+#: includes/admin/class-wprmp-modal.php:66
+msgid "Label Shortcode"
+msgstr "Raccourci étiquette"
+
+#: includes/public/class-wprmp-timer.php:60
+msgid "Click to Start Timer"
+msgstr "Cliquez pour lancer le minuteur"
+
+#: templates/public/nutrition-label.php:55
+msgid "Amount Per Serving"
+msgstr "Quantité par portion"
+
+#: templates/public/nutrition-label.php:59
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:19
+msgid "Calories"
+msgstr "Calories"
+
+#: templates/public/nutrition-label.php:61
+msgid "Calories from Fat"
+msgstr "Lipides"
+
+#: templates/public/nutrition-label.php:67
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:67
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:72
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:75
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:78
+msgid "% Daily Value"
+msgstr "% des apports journaliers"
+
+#: templates/public/nutrition-label.php:71
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:30
+msgid "Total Fat"
+msgstr "Total lipides"
+
+#: templates/public/nutrition-label.php:76
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:33
+msgid "Saturated Fat"
+msgstr "Lipides saturés"
+
+#: templates/public/nutrition-label.php:82
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:44
+msgid "Trans Fat"
+msgstr "Lipides trans"
+
+#: templates/public/nutrition-label.php:87
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:38
+msgid "Polyunsaturated Fat"
+msgstr "Lipides polyinsaturés"
+
+#: templates/public/nutrition-label.php:92
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:41
+msgid "Monounsaturated Fat"
+msgstr "Lipides monoinsaturé"
+
+#: templates/public/nutrition-label.php:98
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:49
+msgid "Cholesterol"
+msgstr "Choléstérol"
+
+#: templates/public/nutrition-label.php:104
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:52
+msgid "Sodium"
+msgstr "Sodium"
+
+#: templates/public/nutrition-label.php:110
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:55
+msgid "Potassium"
+msgstr "Potassium"
+
+#: templates/public/nutrition-label.php:116
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:22
+msgid "Total Carbohydrates"
+msgstr "Total glucides"
+
+#: templates/public/nutrition-label.php:122
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:60
+msgid "Dietary Fiber"
+msgstr "Fibres"
+
+#: templates/public/nutrition-label.php:128
+msgid "Sugars"
+msgstr "Sucres"
+
+#: templates/public/nutrition-label.php:133
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:27
+msgid "Protein"
+msgstr "Protéines"
+
+#: templates/public/nutrition-label.php:142
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:66
+msgid "Vitamin A"
+msgstr "Vitamine A"
+
+#: templates/public/nutrition-label.php:148
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:71
+msgid "Vitamin C"
+msgstr "Vitamine C"
+
+#: templates/public/nutrition-label.php:154
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:74
+msgid "Calcium"
+msgstr "Calcium"
+
+#: templates/public/nutrition-label.php:160
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:77
+msgid "Iron"
+msgstr "Fer"
+
+#: templates/public/nutrition-label.php:165
+msgid "Percent Daily Values are based on a 2000 calorie diet."
+msgstr ""
+"Le pourcentage des apports journalier est calculé sur une base de 2000 "
+"calories par jour."
+
+#: templates/admin/manage/custom-taxonomies.php:45
+msgid "Create a new custom taxonomy to categorize your recipes."
+msgstr "Créer une nouvelle taxonomie pour catégoriser vos recettes."
+
+#: templates/admin/manage/custom-taxonomies.php:51
+msgid "Key"
+msgstr "Clé"
+
+#: templates/admin/manage/custom-taxonomies.php:56
+msgid "Unique key for the taxonomy."
+msgstr "Clé unique pour la taxonomie."
+
+#: templates/admin/manage/custom-taxonomies.php:56
+#: templates/admin/manage/custom-taxonomies.php:67
+#: templates/admin/manage/custom-taxonomies.php:78
+msgid "For example"
+msgstr "Par exemple"
+
+#: templates/admin/manage/custom-taxonomies.php:62
+msgid "Singular Name"
+msgstr "Singulier"
+
+#: templates/admin/manage/custom-taxonomies.php:67
+msgid "Singular name for the taxonomy."
+msgstr "Nom singulier pour la taxonomie"
+
+#: templates/admin/manage/custom-taxonomies.php:73
+msgid "Plural Name"
+msgstr "Pluriel"
+
+#: templates/admin/manage/custom-taxonomies.php:78
+msgid "Plural name for the taxonomy."
+msgstr "Nom pluriel pour la taxonomie"
+
+#: templates/admin/manage/custom-taxonomies.php:84
+msgid "Create Custom Taxonomy"
+msgstr "Créer une taxonomie personnalisée"
+
+#: templates/admin/settings/ingredients.php:17
+msgid "Ingredient Links"
+msgstr "Liens ingrédients"
+
+#: templates/admin/settings/ingredients.php:19
+msgid ""
+"Options for the ingredient links that can be added on the WP Recipe Maker > "
+"Manage > Ingredients page."
+msgstr ""
+"Des options pour les liens ingrédients peuvent être ajoutés via WP Recipe "
+"Maker > Manage > Page ingrédients."
+
+#: templates/admin/settings/ingredients.php:25
+msgid "Open in New Tab"
+msgstr "Ouvrir dans un nouvel onglet"
+
+#: templates/admin/settings/ingredients.php:31
+msgid "Open ingredient links in a new tab"
+msgstr "Ouvrir le lien ingrédient dans un nouvel onglet"
+
+#: templates/admin/settings/ingredients.php:37
+msgid "Use Nofollow"
+msgstr "Utiliser l'attribut Nofollow"
+
+#: templates/admin/settings/ingredients.php:43
+msgid "Add the nofollow attribute to ingredient links"
+msgstr "Ajouter l'attribut nofollow aux liens des ingrédients"
+
+#: templates/admin/settings/ingredients.php:49
+#: templates/admin/settings/license.php:42
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: templates/admin/settings/license.php:17
+msgid "Premium License"
+msgstr "Licence premium"
+
+#: templates/admin/settings/license.php:19
+msgid ""
+"Activate your license key to get notified of updates for the premium addon."
+msgstr ""
+"Activez votre clé de licence pour être notifié des mises à jour de la "
+"version premium."
+
+#: templates/admin/settings/license.php:25
+msgid "Premium License Key"
+msgstr "Clé de license premium"
+
+#: templates/admin/settings/license.php:32
+msgid "Warning: the license is currently inactive."
+msgstr "Attention: votre licence est actuellement inactive."
+
+#: templates/admin/settings/license.php:34
+msgid ""
+"Your license key is currently active. Fill in a blank key to deactivate."
+msgstr "Votre clé de licence est active. Effacer le champ pour désactiver."
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:15
+#, php-format
+msgid "The %s shortcode can be used to add the nutrition label shortcode."
+msgstr ""
+"Le raccourci %s peut être utilisé pour ajouter une étiquette nutritionnelle."
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:20
+msgid "Show the nutrition label for the first recipe found on the page."
+msgstr ""
+"Afficher l'étiquette nutritionnelle de la première recette sur la page."
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:24
+msgid "Show the nutrition label for the recipe with ID 123."
+msgstr "Afficher l'étiquette nutritionnelle de la recette avec l'ID 123."
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:28
+msgid ""
+"Show the nutrition label for the recipe with ID 123 and align it to the "
+"right."
+msgstr ""
+"Afficher l'étiquette nutritionnelle de la recette avec l'ID 123 et aligner à "
+"droite."
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:33
+msgid "Recipe"
+msgstr "Recette"
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:35
+msgid "First recipe on page"
+msgstr "Première recette sur la page"
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:39
+msgid "Align"
+msgstr "Alignement"
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:41
+msgid "Left"
+msgstr "Gauche"
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:42
+msgid "Center"
+msgstr "Centrer"
+
+#: templates/admin/modal/tabs/nutrition-label-shortcode.php:43
+msgid "Right"
+msgstr "Droite"
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:16
+msgid "Serving Size"
+msgstr "Portion"
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:17
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:23
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:28
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:31
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:34
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:39
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:42
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:45
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:61
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:64
+msgid "g"
+msgstr "g"
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:20
+msgid "kcal"
+msgstr "kcal"
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:50
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:53
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:56
+msgid "mg"
+msgstr "mg"
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:63
+msgid "Sugar"
+msgstr "Sucre"
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:83
+msgid "Important"
+msgstr "Important"
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:84
+msgid "Nutrition facts should be for 1 serving of the recipe."
+msgstr ""
+"Les informations nutritionnelles doivent être données pour 1 portion de la "
+"recette."
+
+#: templates/admin/modal/tabs/recipe-nutrition-facts.php:85
+msgid "Use the nutrition label shortcode to display these values."
+msgstr ""
+"Utilisez le raccourci pour l'étiquette nutritionnelle pour afficher ces "
+"valeurs."
+
+#. Name of the plugin
+msgid "WP Recipe Maker Premium"
+msgstr "WP Recipe Maker Premium"
+
+#. Description of the plugin
+msgid "Premium addon for WP Recipe Maker."
+msgstr "Ajout premium pour WP Recipe Maker."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://bootstrapped.ventures/"
+msgstr "http://bootstrapped.ventures/"
+
+#. Author of the plugin
+msgid "Bootstrapped Ventures"
+msgstr ""
+"Bootstrapped Ventures\n"

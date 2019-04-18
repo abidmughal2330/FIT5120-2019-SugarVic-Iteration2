@@ -1,0 +1,82 @@
+@import './variables';
+
+.wprmprc-collection-actions {
+    border: 1px solid $color-action-border;
+    border-radius: $border-radius;
+
+    &.wprmprc-collection-actions-overview,
+    &.wprmprc-collection-actions-remove-items {
+        border: none;
+    }
+
+    .wprmprc-collection-action-search-recipe {
+        input {
+            margin: 0;
+            padding: 3px 5px;
+            font-size: 1em;
+            color: black;
+            background: white;
+            border: 1px solid $color-action-border;
+            border-radius: $border-radius;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.wprmprc-collection-action {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid $color-action-border;
+    border-radius: $border-radius;
+    background-color:$color-action;
+    text-align: center;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-action-border;
+        color: white;
+    }
+}
+
+.wprmprc-collection-action-spacer {
+    height: 20px;
+}
+
+.wprmprc-collection-action-header {
+    background-color: $color-action-border;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+.wprmprc-collection-actions-add-item {
+    .wprmprc-collection-action-add-item-mode,
+    .wprmprc-collection-action-select-collection {
+        margin: 5px;
+    }
+
+    .wprmprc-collection-action-search-recipe {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .wprmprc-collection-action-select-items {
+        padding: 10px 0;
+    }
+}
+
+.wprmprc-collection-actions-columns-groups {
+    .wprmprc-edit-list {
+        border-bottom: 1px solid $color-action-border;
+
+        &:last-child {
+            border: none;
+        }
+    }
+}

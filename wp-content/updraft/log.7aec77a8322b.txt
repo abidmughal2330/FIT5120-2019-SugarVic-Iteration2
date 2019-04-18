@@ -1,0 +1,6 @@
+0000.000 (0) Opened log file at time: Tue, 16 Apr 2019 01:34:00 +0000 on https://sugarvic.tk
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.1.1 PHP: 7.2.16 (fpm-fcgi, Linux wordpresspro-1-vm 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64) MySQL: 8.0.15 WPLANG: en_US Server: nginx/1.14.2 safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 7.6M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 4847.2 MB
+0000.017 (0) Tasks: Backup files: 1 (schedule: every8hours) Backup DB:  (schedule: daily)
+0000.026 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.032 (0) Scheduled backup aborted - another backup of this type was apparently invoked by the WordPress scheduler only 66 seconds ago - the WordPress scheduler invoking events multiple times usually indicates a very overloaded server (or other plugins that mis-use the scheduler)

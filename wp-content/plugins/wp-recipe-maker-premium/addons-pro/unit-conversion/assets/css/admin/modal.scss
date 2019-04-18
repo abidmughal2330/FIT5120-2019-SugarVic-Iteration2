@@ -1,0 +1,46 @@
+#wprm-tab-recipe-recipe-unit-conversion .wprm-button-calculate-unit-conversion,
+#wprm-tab-recipe-recipe-unit-conversion .wprm-button-use-unit-conversion {
+    margin-bottom: 10px;
+}
+
+.wprm-unit-conversion-ingredients-container,
+.wprm-unit-conversion-calculation-table {
+    width: 100%;
+    max-width: 700px;
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        &:nth-child(1) { width: 20%; }
+        &:nth-child(2) { width: 40%; }
+        &:nth-child(3) { width: 40%; }
+    }
+}
+
+.wprm-unit-conversion-ingredients-container {
+    .wprmuc-system-2-amount {
+        width: 35%;
+    }
+
+    .wprmuc-system-2-unit {
+        width: 55%;
+    }
+}
+
+.wprm-unit-conversion-calculation-container {
+    display: none;
+
+    .wprm-ingredient-conversion-calculation-type-placeholder {
+        display: none;
+    }
+
+    .wprm-unit-conversion-calculation-table {
+        td {
+            &:nth-child(2) { width: 20%; }
+            &:nth-child(3) { width: 20%; }
+            &:nth-child(4) { width: 40%; }
+        }
+    }
+}

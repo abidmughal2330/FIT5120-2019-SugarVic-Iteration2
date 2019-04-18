@@ -1,0 +1,158 @@
+@import './variables';
+
+.wprmprc-collection-item {
+    margin: 0 5px 10px 5px;
+    border: 1px dashed $color-item-border;
+    border-radius: $border-radius;
+    background-color: $color-item;
+
+    display: flex;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .wprmprc-collection-item-actions {
+        border: 1px solid $color-item-border;
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
+        border-right: none;
+
+        margin: -1px 0 -1px -1px;
+
+        background-color: $color-item-action;
+
+        min-height: 50px;
+        width: 25px;
+
+        display: flex;
+        flex-direction: column;
+
+        .wprmprc-collection-item-action {
+            flex: 1;
+            text-align: center;
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+
+            opacity: $link-opacity;
+            &:hover {
+                opacity: 1;
+            }
+
+            &.wprmprc-collection-item-action-delete {
+                .wprmprc-icon svg {
+                    width: 14px;
+                }
+                
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .wprmprc-collection-item-details {
+        flex: 1;
+        display: flex;
+
+        &.wprmprc-collection-item-details-allow-click {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .wprmprc-collection-item-name {
+            flex: 1;
+            padding: 5px;
+        }
+    
+        .wprmprc-collection-item-image {
+            padding: 5px;
+            font-size: 0;
+    
+            img {
+                border-radius: $border-radius;
+                border: 0;
+                margin: 0;
+                padding: 0;
+                max-width: 50px;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    /*
+     * Different items styles.
+     */
+
+    &.wprmprc-collection-item-large {
+        .wprmprc-collection-item-details {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .wprmprc-collection-item-name {
+                padding-top: 0;
+                text-align: center;
+            }
+
+            .wprmprc-collection-item-image {
+                img {
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+
+    &.wprmprc-collection-item-overlay {
+        .wprmprc-collection-item-details {
+            max-height: 100px;
+            position: relative;
+            background-color: #EFEFEF;
+
+            .wprmprc-collection-item-name {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% , -50%);
+                text-align: center;
+            }
+
+            .wprmprc-collection-item-image {
+                overflow: hidden;
+                height: 100px;
+                width: 100%;
+
+                padding: 0;
+                border-radius: $border-radius;
+
+                opacity: 0.2;
+
+                img {
+                    position: relative;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    max-width: 300px;
+                }
+            }
+
+            &:hover {
+                .wprmprc-collection-item-image {                
+                    opacity: 1;
+                }
+            }
+        }
+
+        .wprmprc-collection-item-actions + .wprmprc-collection-item-details {
+            .wprmprc-collection-item-image {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+    }
+}

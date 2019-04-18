@@ -1,0 +1,85 @@
+.wprm-manage-modal-container {
+    display: none;
+}
+
+.wprm-manage-modal-backdrop {
+    position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.7;
+    z-index: 100000;
+    min-height: 500px;
+}
+
+.wprm-manage-modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100050;
+    background: white;
+
+    width: 100%;
+    max-width: 600px;
+    min-height: 450px;
+    padding: 20px;
+
+    .wprm-manage-modal-title {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    .wprm-manage-modal-content {
+        position: fixed;
+        top: 60px;
+        left: 20px;
+        right: 20px;
+        bottom: 60px;
+    }
+
+    .wprm-manage-modal-buttons {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+.wprm-manage-custom-nutrition-modal {
+    label {
+        margin-top: 10px;
+        display: block;
+        font-weight: bold;
+    }
+    #wprm-nutrition-saved-ingredient-amount {
+        max-width: 50px;
+    }
+    #wprm-nutrition-saved-ingredient-unit {
+        max-width: 80px;
+    }
+    #wprm-nutrition-saved-ingredient-name {
+        max-width: 150px;
+    }
+    .wprm-manage-custom-nutrition-modal-nutrients {
+        -moz-column-count: 2;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 20px;
+        column-count: 2;
+        column-gap: 20px;
+        list-style-type: none;
+
+        input {
+            width: 60px;
+            margin: 0 2px;
+            height: 20px;
+            font-size: 14px;
+            padding: 2px;
+        }
+    }
+}
