@@ -722,3 +722,66 @@
 0388.907 (0) Googledrive chunked upload: 30.9 % uploaded (1048576)
 0390.519 (0) Googledrive chunked upload: 61.8 % uploaded (2097152)
 0392.069 (0) Googledrive chunked upload: 92.7 % uploaded (3145728)
+0394.518 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0394.539 (0) Google Drive: OK: Archive backup_2019-04-18-0405_SugarVic_bb34fac1e9a6-others.zip uploaded in 8.41 seconds
+0394.548 (0) Recording as successfully uploaded: backup_2019-04-18-0405_SugarVic_bb34fac1e9a6-others.zip
+0394.563 (0) Deleting local file: backup_2019-04-18-0405_SugarVic_bb34fac1e9a6-others.zip: OK
+0395.614 (0) Google Drive: quota usage: used=5286.8 MB, total=15360 MB, available=10073.2 MB
+0395.620 (0) Google Drive: backup_2019-04-18-0405_SugarVic_bb34fac1e9a6-db.gz: Attempting to upload to Google Drive (into folder id: 1Nq8ieL8yK51uoTUFKYfS4FMtQmF64NRy)
+0397.861 (0) Googledrive chunked upload: 76 % uploaded (1048576)
+0400.087 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0400.104 (0) Google Drive: OK: Archive backup_2019-04-18-0405_SugarVic_bb34fac1e9a6-db.gz uploaded in 4.48 seconds
+0400.110 (0) Recording as successfully uploaded: backup_2019-04-18-0405_SugarVic_bb34fac1e9a6-db.gz
+0400.121 (0) Deleting local file: backup_2019-04-18-0405_SugarVic_bb34fac1e9a6-db.gz: OK
+0400.133 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0400.138 (0) Number of backup sets in history: 4; groups (db): 1
+0400.143 (0) Examining (for databases) backup set with group_id=0, nonce=bb34fac1e9a6, datestamp=1555560342 (Apr 18 2019 04:05:42)
+0400.148 (0) This backup set is the backup set just made, so will not be deleted.
+0400.148 (0) Examining (for databases) backup set with group_id=0, nonce=8773f58fddb9, datestamp=1555378750 (Apr 16 2019 01:39:10)
+0400.148 (0) 1555378750: db: this set includes a database (backup_2019-04-16-0139_SugarVic_8773f58fddb9-db.gz); db count is now 1
+0400.148 (0) 1555378750: db: over retain limit (1); will delete this database
+0400.148 (0) Delete file: backup_2019-04-16-0139_SugarVic_8773f58fddb9-db.gz, service=googledrive
+0401.424 (0) Google Drive: backup_2019-04-16-0139_SugarVic_8773f58fddb9-db.gz: Deletion successful
+0401.437 (0) This backup set is now empty; will remove from history
+0401.442 (0) Deleting log file (log.8773f58fddb9.txt)
+0401.447 (0) Examining (for databases) backup set with group_id=0, nonce=4cb4218ba8c9, datestamp=1555378632 (Apr 16 2019 01:37:12)
+0401.447 (0) Examining (for databases) backup set with group_id=0, nonce=337c17afc8cc, datestamp=1555378374 (Apr 16 2019 01:32:54)
+0401.447 (0) This backup set (1555378374) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0401.447 (0) Number of backup sets in history: 3; groups (files): 1
+0401.452 (0) Examining (for files) backup set with nonce=bb34fac1e9a6, datestamp=1555560342 (Apr 18 2019 04:05:42)
+0401.452 (0) This backup set is the backup set just made, so will not be deleted.
+0401.457 (0) This backup set is the backup set just made, so will not be deleted.
+0401.457 (0) This backup set is the backup set just made, so will not be deleted.
+0401.457 (0) This backup set is the backup set just made, so will not be deleted.
+0401.457 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0401.462 (0) Examining (for files) backup set with nonce=4cb4218ba8c9, datestamp=1555378632 (Apr 16 2019 01:37:12)
+0401.462 (0) plugins: over retain limit (1); will delete this file entity
+0401.462 (0) themes: over retain limit (1); will delete this file entity
+0401.462 (0) uploads: over retain limit (1); will delete this file entity
+0401.462 (0) others: over retain limit (1); will delete this file entity
+0401.462 (0) Delete file: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-plugins.zip, service=googledrive
+0401.465 (0) Delete file: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-themes.zip, service=googledrive
+0401.470 (0) Delete file: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-uploads.zip, service=googledrive
+0401.474 (0) Delete file: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-others.zip, service=googledrive
+0403.523 (0) Google Drive: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-others.zip: Deletion successful
+0404.416 (0) Google Drive: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-uploads.zip: Deletion successful
+0405.623 (0) Google Drive: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-themes.zip: Deletion successful
+0406.229 (0) Google Drive: backup_2019-04-16-0137_SugarVic_4cb4218ba8c9-plugins.zip: Deletion successful
+0406.252 (0) The time we have been running (406.2) is approaching the resumption interval (432) - increasing resumption interval to 437
+0406.265 (0) This backup set is now empty; will remove from history
+0406.270 (0) Deleting log file (log.4cb4218ba8c9.txt)
+0406.276 (0) Examining (for files) backup set with nonce=337c17afc8cc, datestamp=1555378374 (Apr 16 2019 01:32:54)
+0406.282 (0) This backup set (1555378374) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0406.282 (0) This backup set (1555378374) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0406.282 (0) This backup set (1555378374) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0406.282 (0) This backup set (1555378374) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0406.282 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0406.288 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0406.308 (0) Resume backup (bb34fac1e9a6, 0): finish run
+0406.324 (0) Decremented the semaphore (fd) by 1
+0406.334 (0) Semaphore (fd) unlocked
+0406.339 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0406.357 (0) Fetching RSS news feed
+0408.047 (0) Fetched RSS news feed; result is a: SimplePie
+0408.066 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: user@...
+0408.130 (0) The backup apparently succeeded and is now complete
