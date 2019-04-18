@@ -328,9 +328,11 @@ function activityGen() {
 						    <input id="s-suburb" type="text" name="s-suburb" placeholder="Suburb" value="<?php echo (isset($_GET['my_variable'])?$_GET['my_variable']:'') ?>">
 						</div>
 						<select name="s-category" id="search-list">
-							<option value="sport">Sports</option>
-							<option value="dance">Dance</option>
+							
 							<option value="yoga">Yoga</option>
+							<option value="dance">Dance</option>
+							<option value="sport">Sports</option>
+							
 							
 						</select>
 						<input type="button" name="s-submit" id="search-btn" value="Show">
@@ -356,7 +358,7 @@ function activityGen() {
 						}
 					}
 					else {
-						$total_results = $wpdb->get_results( "SELECT * FROM sport");
+						$total_results = $wpdb->get_results( "SELECT * FROM yoga");
 						genBlock($total_results, 'none');
 					}
 					 ?>		
