@@ -104,7 +104,7 @@
 .cus-InfoWindow {min-width: 200px; overflow: hidden; border-radius: 10px 10px 0 0; box-shadow: 0 9px 16px rgba(58, 87, 135, 0.15);}
 .cus-InfoWindow p{margin: 0;padding: 0;}
 #cus-info-title {margin: 0; color:#720812;}
-.fa-map-marker-alt,.fa-phone,.fa-globe {color:#720812}
+.fa-map-marker-alt,.fa-phone,.fa-globe ,.fa-info{color:#720812}
 
 @media(max-width: 1000px) {
 	.side-ctrl-container{ display: none; position: static; }
