@@ -41,40 +41,13 @@ function getInfo() {
 				{$results = $wpdb->get_results( "SELECT * FROM dance where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
 			else if ($cat == 'yoga')
 				{$results = $wpdb->get_results( "SELECT * FROM yoga where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-
-			else if ($cat == 'aerobics')
-				{$results = $wpdb->get_results( "SELECT * FROM aerobics where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'basketball')
-            {$results = $wpdb->get_results( "SELECT * FROM basketball where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'cricket')
-            {$results = $wpdb->get_results( "SELECT * FROM cricket where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'fitness')
-            {$results = $wpdb->get_results( "SELECT * FROM fitness where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'golf')
-            {$results = $wpdb->get_results( "SELECT * FROM golf where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'netball')
-            {$results = $wpdb->get_results( "SELECT * FROM netball where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'rugby')
-            {$results = $wpdb->get_results( "SELECT * FROM rugby where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'soccer')
-            {$results = $wpdb->get_results( "SELECT * FROM soccer where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'squash')
-            {$results = $wpdb->get_results( "SELECT * FROM squash where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-            else if ($cat == 'swimming')
-            {$results = $wpdb->get_results( "SELECT * FROM swimming where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
-
-
-			else {$results = $wpdb->get_results( "SELECT * FROM tennis where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
+			else if ($cat == 'cooking')
+				{$results = $wpdb->get_results( "SELECT * FROM cooking where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
+			else if ($cat == 'community')
+				{$results = $wpdb->get_results( "SELECT * FROM community where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
+			else if ($cat == 'sport')
+				{$results = $wpdb->get_results( "SELECT * FROM sport where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
+			else {$results = $wpdb->get_results( "SELECT * FROM volunteer where TRIM(UPPER(Suburb)) = '".strtoupper($sub)."'");}
 			$geo = $wpdb->get_results( "SELECT * FROM geo where TRIM(UPPER(Suburbs)) = '".strtoupper($sub)."'");
 		}
 		else {
@@ -82,38 +55,13 @@ function getInfo() {
 				{$results = $wpdb->get_results( "SELECT * FROM dance");}
 			else if ($cat == 'yoga')
 				{$results = $wpdb->get_results( "SELECT * FROM yoga");}
-
-			else if ($cat == 'aerobics')
-				{$results = $wpdb->get_results( "SELECT * FROM aerobics");}
-
-            else if ($cat == 'basketball')
-            {$results = $wpdb->get_results( "SELECT * FROM basketball");}
-
-            else if ($cat == 'cricket')
-            {$results = $wpdb->get_results( "SELECT * FROM cricket");}
-
-            else if ($cat == 'fitness')
-            {$results = $wpdb->get_results( "SELECT * FROM fitness");}
-
-            else if ($cat == 'golf')
-            {$results = $wpdb->get_results( "SELECT * FROM golf");}
-
-            else if ($cat == 'netball')
-            {$results = $wpdb->get_results( "SELECT * FROM netball");}
-
-            else if ($cat == 'rugby')
-            {$results = $wpdb->get_results( "SELECT * FROM rugby");}
-
-            else if ($cat == 'soccer')
-            {$results = $wpdb->get_results( "SELECT * FROM soccer");}
-
-            else if ($cat == 'squash')
-            {$results = $wpdb->get_results( "SELECT * FROM squash");}
-
-            else if ($cat == 'swimming')
-            {$results = $wpdb->get_results( "SELECT * FROM swimming");}
-
-			else {$results = $wpdb->get_results( "SELECT * FROM tennis");}
+			else if ($cat == 'cooking')
+				{$results = $wpdb->get_results( "SELECT * FROM cooking");}
+			else if ($cat == 'community')
+				{$results = $wpdb->get_results( "SELECT * FROM community");}
+			else if ($cat == 'sport')
+				{$results = $wpdb->get_results( "SELECT * FROM sport");}
+			else {$results = $wpdb->get_results( "SELECT * FROM volunteer");}
 		}
 		$product = array($results, $geo);
 		echo json_encode($product);
