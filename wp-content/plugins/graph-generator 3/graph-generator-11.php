@@ -3,7 +3,7 @@
 
  * Plugin Name: Graph Generator
  * Description: This plugin generates data graph 
- * Version: 1.0.0
+ * Version: 0.0.0
  * Author: Aaron
  * License: GPL2
  */
